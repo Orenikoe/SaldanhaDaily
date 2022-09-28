@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.cards-wrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.single-card-wrap {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.worker-img {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.single-card-wrap p {
+    margin: auto;
+
+}
+
+.card-top {
+    display: flex;
+}
+
+.card-top-text {
+    margin:auto;
+}
