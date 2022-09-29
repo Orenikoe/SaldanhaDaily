@@ -48,12 +48,17 @@
 .single-card-wrap {
     border: 1px solid black;
     padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px;
 }
 
 .worker-img {
-    width: 100px;
-    height: 100px;
-    background-color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+   
 }
 
 .single-card-wrap p {
