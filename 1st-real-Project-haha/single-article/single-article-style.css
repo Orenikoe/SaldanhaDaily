@@ -14,7 +14,7 @@ body {
 }
 
 .articleImageSource{
-    margin: 0;
+    text-align: left;
 }
 
 .articleTitle{
@@ -29,4 +29,22 @@ body {
     /* background-repeat: no-repeat; */
     background-size: cover;
     border: 1px solid black;
+  }
+
+  .article{
+    text-align: left;
+    margin:0;
+    padding:50px;
+  }
+
+  .rowButtons{
+    
+  }
+
+  .shareButton{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: #4bc475;
+    border: 1px solid #000;
   }
