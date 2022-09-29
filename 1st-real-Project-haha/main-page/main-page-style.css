@@ -1,0 +1,16 @@
+.Articles{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#Articles{
+    height: 180px;
+    background-color: beige;
+    margin: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+.Articles img{
+    width: 30%;
+    margin: 35px;
+}
