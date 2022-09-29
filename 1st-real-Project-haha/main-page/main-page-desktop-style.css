@@ -5,9 +5,9 @@
     margin: 20px;
 }
 #Articles{
-    background-color: beige;
+    background-color: rgb(216, 216, 216);
     margin: 40px;
-    height: 570px;
+    height: 530px;
     font-size: 20px;
     display: grid;
     grid-template-columns:100%;
@@ -27,6 +27,7 @@
 }
 .articleImage{
     width: 65%;
+    max-height: 160px;
     margin: 10px auto auto auto;
     grid-row: 2 / 2;
 
