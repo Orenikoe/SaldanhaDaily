@@ -1,40 +1,37 @@
-* {
-    margin:10px;
-  }
+ * {
+    margin:0px;
+    
+ }
+    
+
 
 body {
     margin:10px;
-    background-color: #ebe5e5
+    background-color: #ebe5e5;
+    margin:10px;
+    border:10px;
   }
-
-
-.mainArticle{
-    margin: 20px;
-    padding: 20px;
-}
-
-.articleImageSource{
-    text-align: left;
-}
 
 .articleTitle{
     text-align: center;
 }
 
-
 .articleImage{
-    /* background-image: url("assets/image4.jpg"); */
-    width:380px;
-    height: 300px;
-    /* background-repeat: no-repeat; */
+    background-image: url("https://www.goodfreephotos.com/albums/business-and-technology/old-black-typewriter.jpg"); 
+    padding:0;
+    width: 350px;
+    height: 350px;
+    background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid black;
   }
+.articleImageSource{
+    text-align: left;
+}
 
   .article{
     text-align: left;
     margin:0;
-    padding:50px;
+    padding:20px;
     padding-top: 10px;
   }
 
@@ -50,9 +47,10 @@ body {
     height: 20px;
     background: white;
     border: 1px solid #000;
+    margin:5px;
   }
 
-  #ellipsisButton:hoover{
+  .ellipsisButton:hoover{
     border-radius: 50%;
     width: 20px;
     height: 20px;
@@ -61,11 +59,29 @@ body {
     text-align:center;
     color:black;
   }
+  
+    .ellipsisButton .ellipsis{
+      text-align: center;
+      margin:0;
+      font-size:11px;
+    }
 
-  #ellipsisButton:active{
+  .ellipsisButton:active{
     background: black;
     color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0;
   }
+
+.date{
+    text-align: center;
+    font-size:10px;
+    color: gray;
+    margin:10px;
+}
+
 
 
   
