@@ -1,0 +1,143 @@
+.AllArticles{
+    width: 100%;
+}
+#Articles{
+    background-color: rgb(216, 216, 216);
+    margin: 40px;
+    height: 200px;
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;   
+}
+#Articles p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
+.articleImage{
+    width: 70%;
+    margin: auto;
+    grid-row-start: 2;
+    max-height: 140px;
+
+}
+.articleTitle{
+    font-size: 20px;
+    text-align: center;
+    grid-row-start: 1 / 1;
+    grid-column: 1 / 3;
+    margin-bottom: 0px;
+    border-bottom: 2px solid rgb(152, 152, 152);
+    content: '';
+    display: block;
+    margin-left: 20%;
+    width: 50%;
+    padding-bottom: 10px;
+}
+.rightArticle .articleImage{
+    grid-column-start:2;
+}
+.rightArticle p{
+    margin-left: 20px;
+}
+.leftArticle p{
+    margin-right: 20px;
+}
+
+* {
+    margin:0px;
+    
+ }
+    
+
+
+body {
+    margin:10px;
+    background-color: #ebe5e5;
+    margin:10px;
+    border:10px;
+  }
+
+.articleTitle{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.articleImage{
+    background-image: url("https://www.goodfreephotos.com/albums/business-and-technology/old-black-typewriter.jpg"); 
+    padding:0;
+    width: 350px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.articleImageSource{
+    text-align: left;
+    padding-bottom:10px;
+    font-size:10px;
+}
+
+  .article{
+    text-align: left;
+    margin:0;
+    padding:20px;
+    padding-top: 10px;
+  }
+
+  .rowButtons{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top:20px;
+  }
+
+  .shareButton{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border: 1px solid #000;
+    margin:5px;
+    background-image: url("https://pluspng.com/img-png/twitter-png-twitter-icon-1600.png");
+
+  }
+
+
+  .ellipsisButton:hoover{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border: 1px solid #000;
+    text-align:center;
+    color:black;
+  }
+  
+    .ellipsisButton .ellipsis{
+      text-align: center;
+      margin:0;
+      font-size:11px;
+    }
+
+  .ellipsisButton:active{
+    background: black;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0;
+    font-size:11px;
+    text-align: center;
+  }
+
+.date{
+    text-align: center;
+    font-size:10px;
+    color: gray;
+    margin:10px;
+}
