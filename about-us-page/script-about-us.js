@@ -3,19 +3,19 @@ const teamData = [
 		name: 'Goncalo Da Silva',
 		title: 'CEO',
 		description: `enjoyiing journalizm since 8 years. very dedicted to my job. when i'm not reading - i like to play tennis.`,
-		image: '',
+		image: 'assets/1517063149400.jpg',
 	},
 	{
 		name: 'Andre Maceda',
 		title: 'CTO',
 		description: `enjoyiing journalizm since 8 years. very dedicted to my job. when i'm not reading - i like to play tennis.`,
-		image: '',
+		image: 'assets/andre-pic.jpg',
 	},
 	{
 		name: 'Oren Tal',
 		title: 'Admnistration Officer',
 		description: `enjoyiing journalizm since 8 years. very dedicted to my job. when i'm not reading - i like to play tennis.`,
-		image: '',
+		image: 'assets/oren-pic.jpg',
 	},
 ];
 const cardsWrapper = document.querySelector('main');
@@ -44,6 +44,7 @@ function printCards() {
 		singleCard.appendChild(cardTop);
 		singleCard.appendChild(cardBottom);
 		cardsWrapper.appendChild(singleCard);
+        workerImage.style.backgroundImage = `url(${worker.image})`
 		cardsWrapper.classList.add('cards-wrapper');
 		singleCard.classList.add('single-card-wrap');
 		workerImage.classList.add('worker-img');
