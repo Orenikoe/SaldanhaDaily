@@ -80,16 +80,16 @@ function generateBurgerMenu(el) {
 				menuLink.classList.add('menu-link');
 				switch (link) {
 					case 'Sport':
-						menuLink.href = 'file:///C:/Users/orent/Desktop/WC%20School/WC%20Projects/SaldanhaDaily/main-page/main-page.html';
+						menuLink.href = "../main-page/main-page.html";
 						break;
 					case 'Technology':
-						menuLink.href = 'file:///C:/Users/orent/Desktop/WC%20School/WC%20Projects/SaldanhaDaily/main-page/main-page.html';
+						menuLink.href = "../main-page/main-page.html";
 						break;
 					case 'Financial':
-						menuLink.href = 'file:///C:/Users/orent/Desktop/WC%20School/WC%20Projects/SaldanhaDaily/main-page/main-page.html';
+						menuLink.href = '../main-page/main-page.html';
 						break;
 					case 'About Us':
-						menuLink.href = 'file:///C:/Users/orent/Desktop/WC%20School/WC%20Projects/SaldanhaDaily/about-us-page/about-us.html';
+						menuLink.href = "about-us.html";
 						break;
 				}
 
