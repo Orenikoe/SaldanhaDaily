@@ -72,17 +72,32 @@ function checkMenuStatus(status) {
 
 function generateBurgerMenu(el) {
 	const linksContainer = document.createElement('div');
-	let links = ['Sport', 'Technology', 'Bull', 'Shit'];
+	let links = ['Sport', 'Technology', 'Financial', 'About Us'];
 	el.childNodes.length === 1
 		? burgerMenuOpen.removeChild(linksContainer)
 		: links.forEach((link) => {
 				const menuLink = document.createElement('a');
-                menuLink.classList.add('menu-link');
-				menuLink.href = `${link}.html`;
+				menuLink.classList.add('menu-link');
+				switch (link) {
+					case 'Sport':
+						menuLink.href = 'file:///C:/Users/orent/Desktop/WC%20School/WC%20Projects/SaldanhaDaily/main-page/main-page.html';
+						break;
+					case 'Technology':
+						menuLink.href = 'file:///C:/Users/orent/Desktop/WC%20School/WC%20Projects/SaldanhaDaily/main-page/main-page.html';
+						break;
+					case 'Financial':
+						menuLink.href = 'file:///C:/Users/orent/Desktop/WC%20School/WC%20Projects/SaldanhaDaily/main-page/main-page.html';
+						break;
+					case 'About Us':
+						menuLink.href = 'file:///C:/Users/orent/Desktop/WC%20School/WC%20Projects/SaldanhaDaily/about-us-page/about-us.html';
+						break;
+				}
+
 				menuLink.innerHTML = link;
 				linksContainer.appendChild(menuLink);
 		  });
 	burgerMenuOpen.appendChild(linksContainer);
 }
+
 
 printCards();
