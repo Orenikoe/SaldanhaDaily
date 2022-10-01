@@ -46,3 +46,10 @@ function generateBurgerMenu(el) {
 		  });
 	burgerMenuOpen.appendChild(linksContainer);
 }
+
+function subscribeClicked() {
+	document.getElementById('subscribe-pop-msg').style.display = 'block';
+	setTimeout(() => {
+		document.getElementById('subscribe-pop-msg').style.display = 'none';
+	}, 4000)
+}
