@@ -33,7 +33,7 @@
         <label for="password">Password</label>
         <input type="password" placeholder="Password" id="password">
 
-        <a href="../main-page/main-page.html">Log In</a>
+        <button onclick="loginClicked(event)"><a id="login-anchor" href="../main-page/main-page.html">Log In</a></button>
         <div class="social">
         <div onclick="subscribeClicked()" class="go">  Subscribe! </div>
           <!-- <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div> -->
@@ -44,6 +44,8 @@
         Due to large traffic we are currently not able to receive new members. <br>
         Please try again later.
     </div>
+
+    <h1 id="logged-in-msg"></h1>
 
     <footer class="footer">
         <div></div>

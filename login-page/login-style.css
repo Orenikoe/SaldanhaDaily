@@ -87,7 +87,7 @@ box-sizing: border-box;
 background-color: #080710;
 } */
 .background{
-width: 430px;
+width: 300px;
 height: 520px;
 position: absolute;
 transform: translate(-50%,-50%);
@@ -164,13 +164,12 @@ font-weight: 300;
 ::placeholder{
 color: #e5e5e5;
 }
-form a{
+form button{
 margin-top: 50px;
 width: 100%;
 /* background-color: #ffffff; */
 background-color: #49BEB7;
-text-decoration: none;
-color: black;
+
 
 color: #080710;
 padding: 15px 0;
@@ -178,6 +177,12 @@ font-size: 18px;
 font-weight: 600;
 border-radius: 5px;
 cursor: pointer;
+
+}
+
+form button a {
+	text-decoration: none;
+	
 }
 .social{
 margin-top: 30px;
@@ -214,6 +219,10 @@ margin-right: 4px;
 	position: relative;
 	margin: auto;
 	text-align: center;
+	display: none;
+}
+
+#logged-in-msg {
 	display: none;
 }
 
