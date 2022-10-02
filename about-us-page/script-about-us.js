@@ -72,17 +72,39 @@ function checkMenuStatus(status) {
 
 function generateBurgerMenu(el) {
 	const linksContainer = document.createElement('div');
-	let links = ['Sport', 'Technology', 'Bull', 'Shit'];
+	let links = ['Sport', 'Technology', 'Financial', 'About Us'];
+	let loggedInInd = sessionStorage.getItem('loggedIn');
+	if (loggedInInd === 'true') {
+	   links.push('Order Food');
+	}
 	el.childNodes.length === 1
 		? burgerMenuOpen.removeChild(linksContainer)
 		: links.forEach((link) => {
 				const menuLink = document.createElement('a');
-                menuLink.classList.add('menu-link');
-				menuLink.href = `${link}.html`;
+				menuLink.classList.add('menu-link');
+				switch (link) {
+					case 'Sport':
+						menuLink.href = "../main-page/main-page.html";
+						break;
+					case 'Technology':
+						menuLink.href = "../main-page/main-page.html";
+						break;
+					case 'Financial':
+						menuLink.href = '../main-page/main-page.html';
+						break;
+					case 'About Us':
+						menuLink.href = "about-us.html";
+						break;
+						case 'Order Food':
+						menuLink.href = '../order-food-page/order-food.html';
+						break;
+				}
+
 				menuLink.innerHTML = link;
 				linksContainer.appendChild(menuLink);
 		  });
 	burgerMenuOpen.appendChild(linksContainer);
 }
+
 
 printCards();

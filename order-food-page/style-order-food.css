@@ -36,7 +36,7 @@ header {
 #burger-menu-icon {
 	width: 40px;
 	height: 40px;
-	background-image: url('assets/burger-menu-icon.png');
+	background-image: url('../about-us-page/assets/burger-menu-icon.png');
 	z-index: 50;
 	position: relative;
 	background-size: contain;
@@ -84,12 +84,13 @@ header {
 	padding: 10px;
 	margin: 10px;
 	box-shadow: 5px 5px;
+	
 }
 
 .worker-img {
 	border: 1px solid black;
 	border-radius: 50%;
-	background-size: contain;
+	background-size: cover;
 	width: 80px;
 	height: 80px;
 }
@@ -105,6 +106,13 @@ header {
 .card-top-text {
 	margin: auto;
 }
+ button {
+    
+    top: -10px;
+    position: relative;
+    left: 30px;
+    margin-top: 10px;
+ }
 
 .footer div {
 	width: 50px;
@@ -114,4 +122,8 @@ header {
 
 .footer {
 	background-color: brown;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    
 }

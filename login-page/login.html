@@ -5,10 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Login</title>
+    <link rel="stylesheet" href="./login-style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <script src="login-script.js" defer></script>
+
+
 </head>
 <body>
-    <h1>
-        This is User Login Page
-    </h1>
+    <header>
+        <div id="burger-menu-icon" onclick="toggleBurgerMenu()"></div>
+        <div id="burger-menu-open" class="hidden"></div>
+        <a href="../main-page/main-page.html"><img src="../about-us-page/assets/company-logo.png" class="company-icon"></a>
+        <a href="../login-page/login.html"><img src="../about-us-page/assets/login-icon.png" class="login-icon"></a>
+    </header>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <form>
+        <h3>Login Here</h3>
+
+        <label for="username">Username</label>
+        <input type="text" placeholder="Email or Phone" id="username">
+
+        <label for="password">Password</label>
+        <input type="password" placeholder="Password" id="password">
+
+        <button onclick="loginClicked(event)"><a id="login-anchor" href="../main-page/main-page.html">Log In</a></button>
+        <div class="social">
+        <div onclick="subscribeClicked()" class="go">  Subscribe! </div>
+          <!-- <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div> -->
+        </div>
+    </form>
+    <div id="subscribe-pop-msg">
+        Sorry! <br>
+        Due to large traffic we are currently not able to receive new members. <br>
+        Please try again later.
+    </div>
+
+    <h4 id="logged-in-msg"></h4>
+
+    <footer class="footer">
+        <div></div>
+        <p>Wild News Footer</p>
+            </footer>
 </body>
 </html>

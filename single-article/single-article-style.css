@@ -1,0 +1,164 @@
+* {
+    margin:0px;
+ }
+body {
+    margin:10px;
+    background-color: #EBE5E5;
+    margin:10px;
+    border:10px;
+  }
+.articleTitle{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.articleImage{
+    background-image: url("https://www.goodfreephotos.com/albums/business-and-technology/old-black-typewriter.jpg");
+    padding:0;
+    width: 350px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.articleImageSource{
+    text-align: left;
+    padding-bottom:10px;
+    font-size:10px;
+}
+  .article{
+    text-align: left;
+    margin:0;
+    padding:20px;
+    padding-top: 10px;
+  }
+  .rowButtons{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top:20px;
+  }
+  .shareButton{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border: 1px solid #000;
+    margin:5px;
+  }
+  .ellipsisButton:hoover{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border: 1px solid #000;
+    text-align:center;
+    color:black;
+  }
+    .ellipsisButton .ellipsis{
+      text-align: center;
+      margin:0;
+      font-size:11px;
+    }
+  .ellipsisButton:active{
+    background: black;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0;
+    font-size:11px;
+    text-align: center;
+  }
+.date{
+    text-align: center;
+    font-size:10px;
+    color: gray;
+    margin:10px;
+}
+
+
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      }
+      100% {
+          transform: translateX(0);
+      }
+  }
+
+header {
+	justify-content: space-between;
+	display: flex;
+	height: 100px;
+	padding-bottom: 26px;
+	border-radius: 32%;
+	border: 1px 3px 5px 5px solid black;
+	border-bottom: 1px solid;
+}
+
+.company-icon {
+	height: 60px;
+	margin: 10px;
+}
+.login-icon {
+	height: 30px;
+	margin: 10px;
+}
+
+#burger-menu-icon {
+	width: 40px;
+	height: 40px;
+	background-image: url('../about-us-page/assets/burger-menu-icon.png');
+	z-index: 50;
+	position: relative;
+	background-size: contain;
+}
+
+#burger-menu-open {
+	width: 50%;
+	height: -webkit-fill-available;
+	border: 1px solid black;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding-top: 40px;
+	background-color: lightblue;
+	z-index: 5;
+    
+}
+
+.menu-link {
+	display: block;
+    color: darkred;
+    text-decoration: none;
+    font-size: xx-large;
+    padding: 30px;
+}
+
+.visible {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+	display: block;
+    
+}
+
+.hidden {
+	display: none;
+}
+
+.footer div {
+	width: 50px;
+	height: 50px;
+	background-color: black;
+}
+
+.footer {
+	background-color: brown;
+    position: absolute;
+    /* bottom: 0; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
