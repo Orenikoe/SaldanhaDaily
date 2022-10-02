@@ -54,7 +54,7 @@ function generateBurgerMenu(el) {
 						menuLink.href = '../about-us-page/about-us.html';
 						break;
 					case 'Order Food':
-						menuLink.href = '../about-us-page/about-us.html';
+						menuLink.href = '../order-food-page/order-food.html';
 						break;
 				}
 
@@ -85,7 +85,6 @@ function loginClicked(event) {
 		alert('Password must be at least 6 characters long.');
 		return false;
 	}
-	alert('You are In!');
 	sessionStorage.setItem('loggedIn', true);
 	sessionStorage.setItem('username', name);
 	username = name;
