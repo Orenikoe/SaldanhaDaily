@@ -85,7 +85,7 @@ function loginClicked(event) {
 		alert('Password must be at least 6 characters long.');
 		return false;
 	}
-	alert('You are In!');
+
 	sessionStorage.setItem('loggedIn', true);
 	sessionStorage.setItem('username', name);
 	username = name;
