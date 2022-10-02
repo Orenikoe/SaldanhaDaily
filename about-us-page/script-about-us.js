@@ -95,6 +95,9 @@ function generateBurgerMenu(el) {
 					case 'About Us':
 						menuLink.href = "about-us.html";
 						break;
+						case 'Order Food':
+						menuLink.href = '../order-food-page/order-food.html';
+						break;
 				}
 
 				menuLink.innerHTML = link;
