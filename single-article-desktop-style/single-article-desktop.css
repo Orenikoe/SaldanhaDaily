@@ -54,22 +54,170 @@ body {
 
   
   .rowButtons{
+    position:relative;
     display:flex;
     justify-content:center;
     align-items:center;
     padding-top:20px;
   }
   
-  .shareButton{
+  /* .shareButton{
     border-radius: 50%;
     width: 20px;
     height: 20px;
     background: white;
     border: 1px solid #000;
     margin:5px;
+  } */
+
+  
+  .shareFacebook{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border: 1px solid #000;
+    margin:5px;
+  }
+
+  .shareFacebook:hover{
+    background-color:rgb(148, 198, 228);
+  }
+
+  .facebookImg{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-image: url("./assets-articlePage/facebook-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .shareTwitter{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border: 1px solid #000;
+    margin:5px;
+  }
+
+  .shareTwitter:hover{
+    background-color:rgb(121, 176, 207);
   }
   
-  .ellipsisButton:hoover{
+  .twitterImg{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-image: url("./assets-articlePage/twitter-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .shareWhatsapp{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border: 1px solid #000;
+    margin:5px;
+  }
+
+  .shareWhatsapp:hover{
+    background-color:rgb(142, 228, 130);
+  }
+  
+  
+  .whatsImg{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-image: url("./assets-articlePage/whats-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .shareEmail{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border: 1px solid #000;
+    margin:5px;
+  }
+
+  .shareEmail:hover{
+    background-color:rgb(207, 121, 140);
+  }
+  
+  .emailImg{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-image: url("./assets-articlePage/email-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .shareLinkedin{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border: 1px solid #000;
+    margin:5px;
+  }
+  
+  .shareLinkedin:hover{
+    background-color:rgb(121, 176, 207);
+  }
+
+  .linkedinImg{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-image: url("./assets-articlePage/linkdin-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .ellipsisButton{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border: 1px solid #000;
+    margin:5px;
+  }
+  
+  .ellipsisHorImg{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-image: url("./assets-articlePage/ellipsis-hor.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .ellipsisVerImg{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-image: url("./assets-articlePage/ellipsis-ver.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  
+  /* .ellipsisButton:hoover{
     border-radius: 50%;
     width: 20px;
     height: 20px;
@@ -94,7 +242,7 @@ body {
     margin:0;
     font-size:11px;
     text-align: center;
-  }
+  } */
   
     .date{
         text-align: center;

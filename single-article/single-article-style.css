@@ -30,7 +30,8 @@ body {
     font-size:20px;
     font-weight: bold;
     text-align: center;
-    padding-bottom:10px;    
+    padding-bottom:10px;  
+    color:gray;  
   }
 
   .rowButtons{
@@ -39,39 +40,151 @@ body {
     align-items:center;
     padding-top:20px;
   }
-  .shareButton{
+  .shareFacebook{
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background: white;
     border: 1px solid #000;
     margin:5px;
   }
-  .ellipsisButton:hoover{
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    background: white;
-    border: 1px solid #000;
-    text-align:center;
-    color:black;
-  }
-    .ellipsisButton .ellipsis{
-      text-align: center;
-      margin:0;
-      font-size:11px;
-    }
-  .ellipsisButton:active{
-    background: black;
-    color:white;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin:0;
-    font-size:11px;
-    text-align: center;
+
+  .shareFacebook:hover{
+    background-color:rgb(148, 198, 228);
   }
 
+  .facebookImg{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-image: url("./assets-articlePage/facebook-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .shareTwitter{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border: 1px solid #000;
+    margin:5px;
+  }
+
+  .shareTwitter:hover{
+    background-color:rgb(121, 176, 207);
+  }
+  
+  .twitterImg{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-image: url("./assets-articlePage/twitter-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .shareWhatsapp{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border: 1px solid #000;
+    margin:5px;
+  }
+
+  .shareWhatsapp:hover{
+    background-color:rgb(142, 228, 130);
+  }
+  
+  
+  .whatsImg{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-image: url("./assets-articlePage/whats-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .shareEmail{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border: 1px solid #000;
+    margin:5px;
+  }
+
+  .shareEmail:hover{
+    background-color:rgb(207, 121, 140);
+  }
+  
+  .emailImg{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-image: url("./assets-articlePage/email-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .shareLinkedin{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border: 1px solid #000;
+    margin:5px;
+  }
+  
+  .shareLinkedin:hover{
+    background-color:rgb(121, 176, 207);
+  }
+
+  .linkedinImg{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-image: url("./assets-articlePage/linkdin-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .ellipsisButton{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border: 1px solid #000;
+    margin:5px;
+  }
+  
+  .ellipsisHorImg{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-image: url("./assets-articlePage/ellipsis-hor.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .ellipsisVerImg{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-image: url("./assets-articlePage/ellipsis-ver.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
   .date{
     text-align: center;
     font-size:10px;
