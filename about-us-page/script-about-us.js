@@ -1,4 +1,4 @@
-import {teamData} from '../data.js'
+import {teamData} from '../Data/about-us-data.js'
 const cardsWrapper = document.querySelector('main');
 
 
