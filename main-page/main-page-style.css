@@ -138,3 +138,6 @@ header {
     flex-direction: row;
     justify-content: space-evenly;
 }
+#pc-menu{
+    display: none;
+}
