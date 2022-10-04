@@ -35,6 +35,8 @@ function generateBurgerMenu(el) {
 	if (loggedInInd === 'true') {
 		links.push('Order Food');
 	}
+
+	
 	el.childNodes.length === 1
 		? burgerMenuOpen.removeChild(linksContainer)
 		: links.forEach((link) => {
@@ -86,6 +88,7 @@ function loginClicked(event) {
 		alert('Password must be at least 6 characters long.');
 		return false;
 	}
+
 	sessionStorage.setItem('loggedIn', true);
 	sessionStorage.setItem('username', name);
 	username = name;
