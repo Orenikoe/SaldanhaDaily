@@ -15,17 +15,25 @@ body {
 }
 .articleTitle{
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 30px;
     font-size:50px;
     font-weight: bold;
 }
+
+.imageBorder{
+    width: 65%;
+    height: 500px;
+    margin: auto;
+}
+
 .articleImage{
     background-image: url("https://www.goodfreephotos.com/albums/business-and-technology/old-black-typewriter.jpg");
     width: 100%;
-    height: 1050px;
+    height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
+    object-fit:scale-down;
   }
 
 .articleImageSource{
@@ -39,7 +47,8 @@ body {
   font-weight: bold;
   text-align: center;
   padding-bottom:10px; 
-  padding-top:30px;   
+  padding-top:60px;
+  color: gray;   
 }
 
 
@@ -99,7 +108,7 @@ body {
       font-size: 20px;
       margin:0;
       padding-bottom:70px;
-      padding-top: 30px;
+      padding-top: 70px;
     }
   
   
