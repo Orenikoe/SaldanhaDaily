@@ -7,6 +7,7 @@ if (loggedInInd === 'true') {
 	).innerHTML = `Welcome ${sessionStorage.getItem('username')} !`;
 }
 
+
 function subscribeClicked() {
 	console.log('subsc');
 	document.getElementById('subscribe-pop-msg').style.display = 'block';

@@ -94,7 +94,7 @@ let idIndex = 1;
 
 document.querySelector('span').innerHTML = ` I'm ${sessionStorage.getItem(
 	'username'
-)} from  `;
+)} and i will be waiting at room  `;
 
 
 
