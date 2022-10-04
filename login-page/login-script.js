@@ -35,6 +35,8 @@ function generateBurgerMenu(el) {
 	if (loggedInInd === 'true') {
 		links.push('Order Food');
 	}
+
+	
 	el.childNodes.length === 1
 		? burgerMenuOpen.removeChild(linksContainer)
 		: links.forEach((link) => {

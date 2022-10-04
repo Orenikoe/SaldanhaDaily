@@ -70,6 +70,8 @@ function checkMenuStatus(status) {
 	}
 }
 
+
+
 function generateBurgerMenu(el) {
 	const linksContainer = document.createElement('div');
 	let links = ['Sport', 'Technology', 'Financial', 'About Us'];
@@ -108,3 +110,6 @@ function generateBurgerMenu(el) {
 
 
 printCards();
+
+
+

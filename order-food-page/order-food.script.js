@@ -94,7 +94,7 @@ let menuVisibleIndicator = false;
 
 document.querySelector('span').innerHTML = ` I'm ${sessionStorage.getItem(
 	'username'
-)} from  `;
+)} and i will be waiting at room  `;
 
 function toggleBurgerMenu() {
 	checkMenuStatus(menuVisibleIndicator);

@@ -127,3 +127,13 @@ header {
     padding: 5px;
     
 }
+
+@media screen and (min-width: 900px) {
+	.cards-wrapper {
+		flex-direction: row;
+	}
+
+	#burger-menu-open {
+		width: 15%;	
+	}
+}
