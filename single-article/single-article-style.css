@@ -25,12 +25,14 @@ body {
     padding-bottom:10px;
     font-size:10px;
 }
-  .article{
-    text-align: left;
-    margin:0;
-    padding:20px;
-    padding-top: 10px;
+
+  .parGraph{
+    font-size:20px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom:10px;    
   }
+
   .rowButtons{
     display:flex;
     justify-content:center;
@@ -69,13 +71,20 @@ body {
     font-size:11px;
     text-align: center;
   }
-.date{
+
+  .date{
     text-align: center;
     font-size:10px;
     color: gray;
     margin:10px;
 }
 
+.article{
+  text-align: left;
+  margin:0;
+  padding:20px;
+  padding-top: 10px;
+}
 
 
 @keyframes slideInFromLeft {
