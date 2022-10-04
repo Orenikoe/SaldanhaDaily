@@ -64,6 +64,7 @@ function generateBurgerMenu(el) {
 	burgerMenuOpen.appendChild(linksContainer);
 }
 
+
 function subscribeClicked() {
 	document.getElementById('subscribe-pop-msg').style.display = 'block';
 	setTimeout(() => {
@@ -91,3 +92,4 @@ function loginClicked(event) {
 	let links = [];
 	location.replace('../main-page/main-page.html');
 }
+
