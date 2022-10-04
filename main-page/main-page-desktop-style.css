@@ -111,3 +111,10 @@ header {
 .hidden {
 	display: none;
 }
+.company-icon:hover{
+width: 130px;
+height: 100px;
+}
+.company-icon{
+    transition: width 3s, height 0.3s;
+}
