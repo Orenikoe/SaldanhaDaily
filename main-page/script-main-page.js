@@ -57,37 +57,5 @@ if(window.innerWidth < 900){
 				
 }
 else{
-	function generateInlineMenu(el) {
-		const linksContainer = document.createElement('div');
-		let links = ['Sport', 'Technology', 'Financial', 'About Us'];
-		}
-		el.childNodes.length === 1
-		links.forEach((link) => {
-			const menuLink = document.createElement('a');
-					menuLink.classList.add('link');
-					switch (link) {
-						case 'Sport':
-							menuLink.href = './main-page.html';
-							break;
-						case 'Technology':
-							menuLink.href = './main-page.html';
-							break;
-						case 'Financial':
-							menuLink.href = './main-page.html';
-							break;
-						case 'About Us':
-							menuLink.href = '../about-us-page/about-us.html';
-							break;
-						case 'Order Food':
-							menuLink.href = '../order-food-page/order-food.html';
-							break;
-						}
-						
-						menuLink.innerHTML = link;
-						linksContainer.appendChild(Link);
-					});
-				burgerMenuOpen.appendChild(linksContainer);
-					
-	}				
-				
+}	
 				
