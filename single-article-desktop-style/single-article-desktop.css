@@ -60,17 +60,7 @@ body {
     align-items:center;
     padding-top:20px;
   }
-  
-  /* .shareButton{
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    background: white;
-    border: 1px solid #000;
-    margin:5px;
-  } */
-
-  
+    
   .shareFacebook{
     border-radius: 50%;
     width: 30px;
@@ -217,32 +207,6 @@ body {
   }
 
   
-  /* .ellipsisButton:hoover{
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    background: white;
-    border: 1px solid #000;
-    text-align:center;
-    color:black;
-  }
-  
-  .ellipsisButton .ellipsis{
-    text-align: center;
-    margin:0;
-    font-size:11px;
-  }
-  
-  .ellipsisButton:active{
-    background: black;
-    color:white;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin:0;
-    font-size:11px;
-    text-align: center;
-  } */
   
     .date{
         text-align: center;
