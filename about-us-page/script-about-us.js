@@ -73,6 +73,10 @@ function checkMenuStatus(status) {
 function generateBurgerMenu(el) {
 	const linksContainer = document.createElement('div');
 	let links = ['Sport', 'Technology', 'Financial', 'About Us'];
+	let loggedInInd = sessionStorage.getItem('loggedIn');
+	if (loggedInInd === 'true') {
+	   links.push('Order Food');
+	}
 	el.childNodes.length === 1
 		? burgerMenuOpen.removeChild(linksContainer)
 		: links.forEach((link) => {
@@ -90,6 +94,9 @@ function generateBurgerMenu(el) {
 						break;
 					case 'About Us':
 						menuLink.href = "about-us.html";
+						break;
+						case 'Order Food':
+						menuLink.href = '../order-food-page/order-food.html';
 						break;
 				}
 
