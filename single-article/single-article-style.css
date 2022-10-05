@@ -175,6 +175,11 @@ body {
   padding-bottom:20px;
 }
 
+.relatedPosts{
+  display: none;
+
+}
+
 
 @keyframes slideInFromLeft {
     0% {

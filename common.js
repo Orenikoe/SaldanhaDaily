@@ -2,10 +2,12 @@ const menuIcon = document.getElementById('burger-menu-icon');
 const burgerMenuOpen = document.getElementById('burger-menu-open');
 let menuVisibleIndicator = false;
 
+
 function toggleBurgerMenu() {
 	checkMenuStatus(menuVisibleIndicator);
 	generateBurgerMenu(burgerMenuOpen);
 }
+
 function checkMenuStatus(status) {
 	if (status === false) {
 		burgerMenuOpen.classList.remove('hidden');
@@ -17,6 +19,8 @@ function checkMenuStatus(status) {
 		menuVisibleIndicator = false;
 	}
 }
+
+
 
 function generateBurgerMenu(el) {
 	const linksContainer = document.createElement('div');
@@ -32,16 +36,16 @@ function generateBurgerMenu(el) {
 				menuLink.classList.add('menu-link');
 				switch (link) {
 					case 'Sport':
-						menuLink.href = '../main-page/main-page.html';
+						menuLink.href = "../main-page/main-page.html";
 						break;
 					case 'Technology':
-						menuLink.href = '../main-page/main-page.html';
+						menuLink.href = "../main-page/main-page.html";
 						break;
 					case 'Financial':
 						menuLink.href = '../main-page/main-page.html';
 						break;
 					case 'About Us':
-						menuLink.href = '../about-us-page/about-us.html';
+						menuLink.href = "../about-us-page/about-us.html";
 						break;
 						case 'Order Food':
 						menuLink.href = '../order-food-page/order-food.html';
@@ -53,3 +57,4 @@ function generateBurgerMenu(el) {
 		  });
 	burgerMenuOpen.appendChild(linksContainer);
 }
+
