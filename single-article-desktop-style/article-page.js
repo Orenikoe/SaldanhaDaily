@@ -2,16 +2,6 @@ import {sideArticlesData} from '../single-article-desktop-style/article-data'
 
 const sidePosts = document.querySelector(".sidePosts");
 
-<<<<<<< HEAD
-
-
-function createArticle(name, imageUrl){
-    const posts = document.createElement("div");
-  posts.classList.add("posts");
-  sidePosts.appendChild(posts);
-
-}
-=======
 function createArticle(name, imageUrl){
     const posts = document.createElement("div");
     posts.classList.add("posts");
@@ -41,4 +31,3 @@ for (let i = 0; i < sideArticlesData.length; i++) {
     createArticle(sideArticlesData[i].name, sideArticlesData[i].imageUrl);
   }
 
->>>>>>> f007fd74ace879a8e351530c098acbfa401c7fbf
