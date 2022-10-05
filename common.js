@@ -45,7 +45,7 @@ function generateBurgerMenu(el) {
 						menuLink.href = '../main-page/main-page.html';
 						break;
 					case 'About Us':
-						menuLink.href = "about-us.html";
+						menuLink.href = "../about-us-page/about-us.html";
 						break;
 						case 'Order Food':
 						menuLink.href = '../order-food-page/order-food.html';

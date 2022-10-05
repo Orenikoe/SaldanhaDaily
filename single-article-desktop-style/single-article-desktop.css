@@ -8,46 +8,73 @@ body {
     border:10px;
   }
 
+  .formatPage{
+      margin-left: 300px;
+      margin-right:300px;
+
+  }
+
+  .sidePosts {
+    position: fixed;
+    right: 15px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: right;
+    padding-bottom: 20px;
+  }
+
 .articleTitle{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 30px;
-    font-size:30px;
+    font-size:50px;
     font-weight: bold;
+}
+
+.imageBorder{
+    width: 65%;
+    height: 500px;
+    margin: auto;
 }
 
 .articleImage{
     background-image: url("https://www.goodfreephotos.com/albums/business-and-technology/old-black-typewriter.jpg");
-    padding:0;
-    width: 350px;
-    height: 350px;
+    width: 100%;
+    height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
+    object-fit:scale-down;
   }
+
 .articleImageSource{
     text-align: left;
     padding-bottom:10px;
-    font-size:10px;
+    font-size:15px;
 }
 
-  .parGraph{
-    font-size:13px;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom:10px;  
-    color:gray;  
-  }
+.parGraph{
+  font-size:20px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom:10px; 
+  padding-top:60px;
+  color: gray;   
+}
 
-  .rowButtons{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    padding-top:20px;
-  }
+
+  
+.rowButtons{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding-top:20px;
+}
+
+    
   .shareFacebook{
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background: white;
     border: 1px solid #000;
     margin:5px;
@@ -59,8 +86,8 @@ body {
 
   .facebookImg{
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background-image: url("./assets-articlePage/facebook-icon.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -69,8 +96,8 @@ body {
 
   .shareTwitter{
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background: white;
     border: 1px solid #000;
     margin:5px;
@@ -82,8 +109,8 @@ body {
   
   .twitterImg{
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background-image: url("./assets-articlePage/twitter-icon.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -92,8 +119,8 @@ body {
 
   .shareWhatsapp{
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background: white;
     border: 1px solid #000;
     margin:5px;
@@ -106,8 +133,8 @@ body {
   
   .whatsImg{
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background-image: url("./assets-articlePage/whats-icon.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -116,8 +143,8 @@ body {
 
   .shareEmail{
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background: white;
     border: 1px solid #000;
     margin:5px;
@@ -129,8 +156,8 @@ body {
   
   .emailImg{
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background-image: url("./assets-articlePage/email-icon.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -139,8 +166,8 @@ body {
 
   .shareLinkedin{
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background: white;
     border: 1px solid #000;
     margin:5px;
@@ -152,36 +179,43 @@ body {
 
   .linkedinImg{
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background-image: url("./assets-articlePage/linkdin-icon.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
-
   
-  .date{
-    text-align: center;
-    font-size:10px;
-    color: gray;
-    margin:10px;
-}
+  
+    .date{
+        text-align: center;
+        font-size:15px;
+        color: gray;
+        margin:10px;
+    }
 
-.article{
-  text-align: left;
-  margin:0;
-  padding-top: 10px;
-  padding-bottom:20px;
-}
+    .article{
+      text-align: left;
+      font-size: 20px;
+      margin:0;
+      padding-bottom:70px;
+      padding-top: 70px;
+    }
 
-.relatedPosts{
-  display: none;
-
-}
-
-
-@keyframes slideInFromLeft {
+    .relatedPosts{
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      justify-content: center;
+      padding-top: 20px;
+      font-size: small;
+      
+    }
+  
+  
+  
+  @keyframes slideInFromLeft {
     0% {
       transform: translateX(-100%);
       }

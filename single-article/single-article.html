@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="single-article-style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="single-article-style.css"  media="screen and (max-width: 900px)" />
+    <link rel="stylesheet" type="text/css" href="../single-article-desktop-style/single-article-desktop.css"  media="screen and (min-width: 900px)" />
+    <script src="./script-single-article.js" defer></script>
     <script src="../common.js" defer></script>
+    <script src="../single-article-desktop-style/article-page.js" defer></script>
 
     <title>Article Page</title>
 </head>
@@ -16,29 +19,98 @@
         <a href="../main-page/main-page.html"><img src="../about-us-page/assets/company-logo.png" class="company-icon"></a>
         <a href="../login-page/login.html"><img src="../about-us-page/assets/login-icon.png" class="login-icon"></a>
     </header>
-    <main>
-        <div class="articleTitle">Title(sdsdsdsffmwefkmwe ewlfknwelflwe fewflnwefknwe)</div>
-        <section>
-            <img class="articleImage"></img>
-            <div class="articleImageSource">https://www.goodfreephotos.com</div>
-            <p>A paragraph showing an important message from the article
-                dfdfdfldmfd fdfmdfmdfodf dpfmdkfmdlkmfdf fmdfkdmfldmf.
-            </p>
-        </section>
-        <section class="rowButtons">
-            <div class="shareButton" id="twitterImage"></div>
-            <div class="shareButton"></div>
-            <div class="shareButton"></div>
-            <div class="shareButton ellipsisButton" >
-                <p class="ellipsis">...</p>
+    <main  class="formatPage">
+        
+        <div class="sidePosts">
+            <div class="posts">
+              <div class="posts-header">
+                <div class="posts-img"></div>
+              </div>
+              <div class="posts-body">
+                <h2 class="posts-title">Title</h2>
+                <div class="posts-article">Resume of the article</div>
+              </div>
             </div>
+        </div>
+
+        <section>
+            
+            <div class="articleTitle">Title</div>
+            
+            <section>
+                <div class="imageBorder">
+                    <img class="articleImage"></img>
+                    <div class="articleImageSource">https://www.goodfreephotos.com</div>
+                </div>
+                <p class="parGraph">A paragraph showing an important message from the article.A paragraph showing an important message from the article
+                    A paragraph showing an important message from the article.A paragraph showing an important message from the article
+                </p>
+            </section>
+
+            <section class="rowButtons">
+
+                <div class="shareFacebook buttonHover">
+                    <a href = "https://www.facebook.com/">   
+                        <img class="facebookImg"> </img> 
+                    </a>
+                </div>
+
+                <div class="shareTwitter ">
+                    <a href = "https://twitter.com/">   
+                        <img class="twitterImg"> </img> 
+                    </a>
+                </div>
+
+                <div class="shareWhatsapp">
+                    <a href = "https://www.whatsapp.com/">   
+                        <img class="whatsImg"> </img> 
+                    </a>
+                </div>
+
+                <div class="shareEmail">
+                    <a href = "https://www.gmail.com">   
+                        <img class="emailImg"> </img> 
+                    </a>
+                </div>
+
+                <div class="shareLinkedin">
+                    <a href = "https://www.linkedin.com/">   
+                        <img class="linkedinImg"> </img> 
+                    </a>
+                </div>
+            
+        
+
+            </section>
+            
+            <section>
+                <div class="date">OCT 07th 2022</div>
+                <p class="article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                
+            </section>
+
         </section>
-        <div class="date">SEPT 30th 2022</div>
-        <p class="article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
     </main>
     <footer class="footer">
         <div></div>
