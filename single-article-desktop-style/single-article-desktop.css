@@ -222,6 +222,14 @@ body {
       padding-bottom:70px;
       padding-top: 70px;
     }
+
+    .relatedPosts{
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      padding-top: 20px;
+
+    }
   
   
   
