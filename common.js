@@ -1,5 +1,5 @@
-const menuIcon = document.getElementById('burger-menu-icon');
-const burgerMenuOpen = document.getElementById('burger-menu-open');
+const menuIcon = document.getElementById('#burger-menu-icon');
+const burgerMenuOpen = document.getElementById('.burger-menu-open');
 let menuVisibleIndicator = false;
 
 
@@ -24,7 +24,7 @@ function checkMenuStatus(status) {
 
 function generateBurgerMenu(el) {
 	const linksContainer = document.createElement('div');
-	let links = ['Sport', 'Technology', 'Financial', 'About Us'];
+	let links = ['Sport', 'Technology', 'Campus', 'About Us'];
 	let loggedInInd = sessionStorage.getItem('loggedIn');
 	if (loggedInInd === 'true') {
 	   links.push('Order Food');
@@ -45,7 +45,7 @@ function generateBurgerMenu(el) {
 						menuLink.href = '../main-page/main-page.html';
 						break;
 					case 'About Us':
-						menuLink.href = "about-us.html";
+						menuLink.href = "../about-us-page/about-us.html";
 						break;
 						case 'Order Food':
 						menuLink.href = '../order-food-page/order-food.html';

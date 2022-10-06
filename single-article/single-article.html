@@ -4,45 +4,134 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="single-article-style.css" media="screen" />
-    <script src="../common.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="../single-article/single-article-style.css"  media="screen and (max-width: 900px)" />
+    <link rel="stylesheet" type="text/css" href="../single-article-desktop-style/single-article-desktop.css"  media="screen and (min-width: 900px)" />
+    <script src="../common.js" type="module" defer></script>
+
+   <script src="./script-single-articec.js" type="module" defer></script>
+   <script src="../printing-content.js" type="module" defer></script>
+
+
+
 
     <title>Article Page</title>
 </head>
+
+
 <body>
+    
     <header>
         <div id="burger-menu-icon" onclick="toggleBurgerMenu()"></div>
         <div id="burger-menu-open" class="hidden"></div>
-        <a href="../main-page/main-page.html"><img src="../about-us-page/assets/company-logo.png" class="company-icon"></a>
-        <a href="../login-page/login.html"><img src="../about-us-page/assets/login-icon.png" class="login-icon"></a>
+        <a href="../main-page/main-page.html" class="company"><img src="../about-us-page/assets/company-logo.png" class="company-icon"></a>
+        <a href="../login-page/login.html" class="login"><img src="../about-us-page/assets/login-icon.png" class="login-icon"></a>
+        <div id="pc-menu">      
+            <a class="nav-link" href="javascript:void(0)">Sports</a>             
+            <a class="nav-link" href="javascript:void(0)">Technology</a>             
+            <a class="nav-link" href="javascript:void(0)">Campus</a>             
+            <a class="nav-link" href="javascript:void(0)">About Us</a>             
+        </div>
     </header>
-    <main>
-        <div class="articleTitle">Title(sdsdsdsffmwefkmwe ewlfknwelflwe fewflnwefknwe)</div>
-        <section>
-            <img class="articleImage"></img>
-            <div class="articleImageSource">https://www.goodfreephotos.com</div>
-            <p>A paragraph showing an important message from the article
-                dfdfdfldmfd fdfmdfmdfodf dpfmdkfmdlkmfdf fmdfkdmfldmf.
-            </p>
-        </section>
-        <section class="rowButtons">
-            <div class="shareButton" id="twitterImage"></div>
-            <div class="shareButton"></div>
-            <div class="shareButton"></div>
-            <div class="shareButton ellipsisButton" >
-                <p class="ellipsis">...</p>
+    <main  class="formatPage">
+        
+        <div class="sidePosts">
+            <div class="posts">
+              <div class="posts-header">Related Posts
+                <a href="../single-article/single-article.html"><div class="posts-img"></div></a>
+              </div>
+              <div class="posts-body">
+                <h2 class="posts-title">Title</h2>
+                <div class="posts-article">Resume of the article</div>
+              </div>
             </div>
+        </div>
+
+        <section>
+            
+            <div class="articleTitle" id="article-title"></div>
+            
+            <section>
+
+                <div class="imageBorder">
+                    <img class="articleImage" id="article-img"></img>
+                    
+                </div>
+                <p class="parGraph" id="article-desc">A paragraph showing an important message from the article.A paragraph showing an important message from the article
+
+
+                    A paragraph showing an important message from the article.A paragraph showing an important message from the article
+                </p>
+            </section>
+
+            <section class="rowButtons">
+
+                <div class="shareFacebook buttonHover">
+                    <a href = "https://www.facebook.com/">   
+                        <img class="facebookImg"> </img> 
+                    </a>
+                </div>
+
+                <div class="shareTwitter ">
+                    <a href = "https://twitter.com/">   
+                        <img class="twitterImg"> </img> 
+                    </a>
+                </div>
+
+                <div class="shareWhatsapp">
+                    <a href = "https://www.whatsapp.com/">   
+                        <img class="whatsImg"> </img> 
+                    </a>
+                </div>
+
+                <div class="shareEmail">
+                    <a href = "https://www.gmail.com">   
+                        <img class="emailImg"> </img> 
+                    </a>
+                </div>
+
+                <div class="shareLinkedin">
+                    <a href = "https://www.linkedin.com/">   
+                        <img class="linkedinImg"> </img> 
+                    </a>
+                </div>
+            
+        
+
+            </section>
+            
+            <section>
+                <div class="date" id="article-date">OCT 07th 2022</div>
+                <p class="article" id="article-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                
+            </section>
+
         </section>
-        <div class="date">SEPT 30th 2022</div>
-        <p class="article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
     </main>
     <footer class="footer">
         <div></div>
         <p>Wild News Footer</p>
             </footer>
+       
 </body>
 </html>

@@ -1,0 +1,372 @@
+* {
+    margin:0px;
+ }
+body {
+    margin:10px;
+    margin:10px;
+    margin-top: 150px;
+    border:10px;
+    font-family: Helvetica;
+  }
+
+  /* Main page format */
+
+  .formatPage{
+      margin-left: 300px;
+      margin-right:300px;
+
+  }
+
+  
+  /*     .relatedPosts{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: small;
+  } */
+  
+  /* Side bar */
+
+  .sidePosts {
+    position: fixed;
+    right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .posts-img{
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://www.goodfreephotos.com/albums/business-and-technology/old-black-typewriter.jpg");
+  height: 130px;
+  width: 100%;
+  padding-bottom: 10px;
+  }
+
+  .posts-header{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size:20px;
+    font-weight: bold;
+  }
+
+  .posts-title{
+    font-size:small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+.posts-article{
+  font-size:small;
+  font-family: Helvetica;
+}
+
+    /* Article */
+.articleTitle{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size:50px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+
+
+.articleImage{
+    background-image: url("https://www.goodfreephotos.com/albums/business-and-technology/old-black-typewriter.jpg");
+    background-position: center;
+    width: 100%;
+    height: 440px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: inline-block;
+    background-origin: initial;
+  }
+
+.articleImageSource{
+    text-align: center;
+    padding-bottom:10px;
+    font-size:10px;
+}
+
+    /* Paragraph focused */
+
+.parGraph{
+  font-size:20px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom:10px; 
+  padding-top:60px;
+  color: gray;   
+}
+
+    /* Share Buttons */
+  
+.rowButtons{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding-top:20px;
+}
+
+    
+  .shareFacebook{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border: 1px solid #000;
+    margin:5px;
+  }
+
+  .shareFacebook:hover{
+    background-color:rgb(148, 198, 228);
+  }
+
+  .facebookImg{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-image: url("./assets-articlePage/facebook-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .shareTwitter{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border: 1px solid #000;
+    margin:5px;
+  }
+
+  .shareTwitter:hover{
+    background-color:rgb(121, 176, 207);
+  }
+  
+  .twitterImg{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-image: url("./assets-articlePage/twitter-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .shareWhatsapp{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border: 1px solid #000;
+    margin:5px;
+  }
+
+  .shareWhatsapp:hover{
+    background-color:rgb(142, 228, 130);
+  }
+  
+  
+  .whatsImg{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-image: url("./assets-articlePage/whats-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .shareEmail{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border: 1px solid #000;
+    margin:5px;
+  }
+
+  .shareEmail:hover{
+    background-color:rgb(207, 121, 140);
+  }
+  
+  .emailImg{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-image: url("./assets-articlePage/email-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .shareLinkedin{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border: 1px solid #000;
+    margin:5px;
+  }
+  
+  .shareLinkedin:hover{
+    background-color:rgb(121, 176, 207);
+  }
+
+  .linkedinImg{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-image: url("./assets-articlePage/linkdin-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  
+    /* data */
+
+    .date{
+        text-align: center;
+        font-size:15px;
+        color: gray;
+        margin:10px;
+    }
+
+        /* article */
+
+    .article{
+      text-align: left;
+      font-size: 20px;
+      margin:0;
+      padding-bottom:70px;
+      padding-top: 70px;
+    }
+
+
+  
+  
+  
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      }
+      100% {
+          transform: translateX(0);
+      }
+  }
+
+  header {
+    justify-content: space-between;
+    display: grid;
+      grid-template-columns: 100px auto 100px;
+      grid-template-rows:auto auto ;
+    height: 120px;
+    padding-bottom: 30px;
+    border-radius: 0px 0px 32% 32%;
+    border: 1px 3px 5px 5px solid black;
+    border-bottom: 1px solid;
+      position: fixed;
+      background-color: white;
+      top: 0;
+      justify-items: center;
+      width: 100%;
+  }
+  .company{
+      grid-row: 1;
+      grid-column: 2;
+      text-align: center;
+      width: fit-content;
+  }
+  .company-icon {
+    height: 90px;
+    margin: 0px;
+  }
+  .login{
+      grid-column: 3;
+      grid-row: 1;
+  }
+  .login-icon {
+      float: right;
+    height: 40px;
+    margin: 20px;
+  }
+  #pc-menu{
+      grid-row: 2;
+      grid-column: 1/4;
+      display: flex;
+      justify-content: center;
+  }
+  #pc-menu a{
+      text-decoration: none;
+      font-weight: bold;
+      color: #20736D;
+      font-size: 15px;
+      margin: 0px 50px;
+      padding: 6px;
+      align-self: center;
+      font-family:sans-serif ;
+  }
+  #burger-menu-icon {
+    width: 0cm;
+    }
+
+
+#burger-menu-open {
+	width: 50%;
+	height: -webkit-fill-available;
+	border: 1px solid black;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding-top: 40px;
+	background-color: lightblue;
+	z-index: 5;
+    
+}
+
+.menu-link {
+	display: block;
+    color: darkred;
+    text-decoration: none;
+    font-size: xx-large;
+    padding: 30px;
+}
+
+.visible {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+	display: block;
+    
+}
+
+.hidden {
+	display: none;
+}
+
+.company-icon:hover{
+  width: 180px;
+  height: 140px;
+  }
+  .company:hover ~ #pc-menu a{
+      display: none;
+  }
+  .company-icon{
+      transition: width 3s, height 0.3s;
+  }
+
+.footer{
+  background-color: #733415;
+  color: #7AFFF6;
+  height: 50px;
+  float: left ;
+  display: grid;
+  width: 98%;
+  padding-left: 20px;
+  font-size: 15px;
+  font-family: helvetica;
+}
