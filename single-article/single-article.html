@@ -6,23 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="single-article-style.css"  media="screen and (max-width: 900px)" />
     <link rel="stylesheet" type="text/css" href="../single-article-desktop-style/single-article-desktop.css"  media="screen and (min-width: 900px)" />
-    <script src="./script-single-article.js" defer></script>
-    <script src="../common.js" defer></script>
-    <script src="../single-article-desktop-style/article-page.js" defer></script>
+    <script src="../common.js" type="module" defer></script>
+   <script src="./script-single-articec.js" type="module" defer></script>
+   <script src="../printing-content.js" type="module" defer></script>
+
 
     <title>Article Page</title>
 </head>
 <body>
+    
     <header>
         <div id="burger-menu-icon" onclick="toggleBurgerMenu()"></div>
         <div id="burger-menu-open" class="hidden"></div>
         <a href="../main-page/main-page.html" class="company"><img src="../about-us-page/assets/company-logo.png" class="company-icon"></a>
         <a href="../login-page/login.html" class="login"><img src="../about-us-page/assets/login-icon.png" class="login-icon"></a>
         <div id="pc-menu">      
-            <a href="../single-article/single-article.html">Sports</a>             
-            <a href="../single-article/single-article.html">Technology</a>             
-            <a href="../single-article/single-article.html">Financial</a>             
-            <a href="../about-us-page/about-us.html">About Us</a>             
+            <a class="nav-link" href="javascript:void(0)">Sports</a>             
+            <a class="nav-link" href="javascript:void(0)">Technology</a>             
+            <a class="nav-link" href="javascript:void(0)">Campus</a>             
+            <a class="nav-link" href="javascript:void(0)">About Us</a>             
         </div>
     </header>
     <main  class="formatPage">
@@ -41,14 +43,14 @@
 
         <section>
             
-            <div class="articleTitle">Title</div>
+            <div class="articleTitle" id="article-title"></div>
             
             <section>
                 <div class="imageBorder">
-                    <img class="articleImage"></img>
-                    <div class="articleImageSource">https://www.goodfreephotos.com</div>
+                    <img class="articleImage" id="article-img"></img>
+                    
                 </div>
-                <p class="parGraph">A paragraph showing an important message from the article.A paragraph showing an important message from the article
+                <p class="parGraph" id="article-desc">A paragraph showing an important message from the article.A paragraph showing an important message from the article
                     A paragraph showing an important message from the article.A paragraph showing an important message from the article
                 </p>
             </section>
@@ -90,8 +92,8 @@
             </section>
             
             <section>
-                <div class="date">OCT 07th 2022</div>
-                <p class="article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                <div class="date" id="article-date">OCT 07th 2022</div>
+                <p class="article" id="article-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -122,5 +124,6 @@
         <div></div>
         <p>Wild News Footer</p>
             </footer>
+       
 </body>
 </html>

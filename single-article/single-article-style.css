@@ -15,6 +15,9 @@ body {
     font-size:30px;
     font-weight: bold;
 }
+.imageBorder {
+  text-align: center;
+}
 
 .articleImage{
     background-image: url("https://www.goodfreephotos.com/albums/business-and-technology/old-black-typewriter.jpg");
@@ -61,7 +64,7 @@ body {
     border-radius: 50%;
     width: 20px;
     height: 20px;
-    background-image: url("./assets-articlePage/facebook-icon.png");
+    background-image: url("../single-article/assets-articlePage/facebook-icon.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
