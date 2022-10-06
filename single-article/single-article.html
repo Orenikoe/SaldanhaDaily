@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../single-article/single-article-style.css"  media="screen and (max-width: 900px)" />
+    <!-- <link rel="stylesheet" type="text/css" href="../main-page/main-page-style.css"  media="screen and (max-width: 900px)" /> -->
     <link rel="stylesheet" type="text/css" href="../single-article-desktop-style/single-article-desktop.css"  media="screen and (min-width: 900px)" />
     <script src="../common.js" type="module" defer></script>
+    <script src="../printing-content.js" type="module" defer></script>
+    <script src="./script-single-articec.js" type="module" defer></script>
 
-   <script src="./script-single-articec.js" type="module" defer></script>
-   <script src="../printing-content.js" type="module" defer></script>
 
 
 
@@ -22,8 +23,10 @@
     
     <header>
         <div id="burger-menu-icon" ></div>
-        <div id="burger-menu-open" class="hidden"></div>
-        <a href="../main-page/main-page.html" class="company"><img src="../about-us-page/assets/company-logo.png" class="company-icon"></a>
+        <div id="burger-menu-open" class="hidden">
+            <div id ='burger-menu-icons-div' style=" background-color: lightblue;"></div>
+        </div>
+        <a href="../main-page/main-page.html" class="company" id="company-icon" onclick="() => location.href = `../main-page/main-page.html`"><img src="../about-us-page/assets/company-logo.png" class="company-icon"></a>
         <a href="../login-page/login.html" class="login"><img src="../about-us-page/assets/login-icon.png" class="login-icon"></a>
         <div id="pc-menu">      
             <a class="nav-link" href="javascript:void(0)">Sports</a>             
@@ -40,7 +43,12 @@
                 <a href="../single-article/single-article.html"><div class="posts-img"></div></a>
               </div>
               <div class="posts-body">
-                <h2 class="posts-title">Title</h2>
+                <h2 class="posts-title" id="rel-post1"></h2>
+                <div class="posts-article">Resume of the article</div>
+                <a href="../single-article/single-article.html"><div class="posts-img"></div></a>
+              </div>
+              <div class="posts-body">
+                <h2 class="posts-title" id="rel-post2">>Title</h2>
                 <div class="posts-article">Resume of the article</div>
               </div>
             </div>

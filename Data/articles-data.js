@@ -20,7 +20,7 @@ export const articlesData = [{
     id: 3,
     title: "Rent a space for your events!",
     img: "../main-page/assets/article3.jpg",
-    topic: "Sports",
+    topic: "Sport",
     desc: " Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque.",
     body: " Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque."
 },
@@ -60,7 +60,7 @@ export const articlesData = [{
     id: 8,
     title: "Day off to work out",
     img: "../main-page/assets/FitnessHut.jpg",
-    topic: "Sports",
+    topic: "Sport",
     desc: "In collaboration with Fitness Hut in Arco do Cego, the whole class will be provided with a free day in the gym next week.",
     body: " Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque."
 },
@@ -92,7 +92,22 @@ export const articlesData = [{
     id: 12,
     title: "The university students are getting fatter!",
     img: "../main-page/assets/college-students-eating.webp",
-    topic: "Campus",
+    topic: "Technology",
+    desc: "After some studies we jump into conclusions that the students around the Saldanha's area are working out less from day to day!",
+    body: " Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque."
+},
+{
+    id: 13,
+    title: "The university students are getting fatter!",
+    img: "../main-page/assets/college-students-eating.webp",
+    topic: "Technology",
+    desc: "After some studies we jump into conclusions that the students around the Saldanha's area are working out less from day to day!",
+    body: " Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque."
+},{
+    id: 14,
+    title: "The university students are getting fatter!",
+    img: "../main-page/assets/college-students-eating.webp",
+    topic: "Sport",
     desc: "After some studies we jump into conclusions that the students around the Saldanha's area are working out less from day to day!",
     body: " Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque."
 }

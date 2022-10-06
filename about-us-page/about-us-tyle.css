@@ -52,13 +52,21 @@ h1{
 #burger-menu-open {
     width: 50%;
     height: -webkit-fill-available;
-    border: 1px solid black;
     position: absolute;
     left: 0;
     top: 0;
     padding-top: 40px;
-    background-color: lightblue;
     z-index: 5;
+    background-color: lightblue;
+
+}
+.link-default {
+    text-decoration: none;
+    color: black;
+  }
+#burger-menu-icons-div {
+    background-color: lightblue;
+
 }
 .menu-link {
     display: block;
@@ -184,6 +192,9 @@ flex-direction: column;
 		align-self: center;
 		font-family:sans-serif ;
 	}
+    #burger-menu-open {
+        width: 30%;
+    }
 	.company-icon:hover{
 		width: 180px;
 		height: 140px;
@@ -191,6 +202,7 @@ flex-direction: column;
 	.company:hover ~ #pc-menu a{
 		display: none;
 	}
+
 	.company-icon{
 		transition: width 3s, height 0.3s;
 	}

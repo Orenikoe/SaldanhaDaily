@@ -1,39 +1,35 @@
 import {printCards} from './printing-content.js'
 document.getElementById('burger-menu-icon').addEventListener('click', toggleBurgerMenu);
-const menuIcon = document.getElementById('#burger-menu-icon');
+const menuIcon = document.getElementById('burger-menu-icon');
 const burgerMenuOpen = document.getElementById('burger-menu-open');
+const burgerMenuOpenInnerDiv = document.getElementById('burger-menu-icons-div');
 let menuVisibleIndicator = false;
 
 
-export function toggleBurgerMenu() {
-	checkMenuStatus(menuVisibleIndicator);
-	generateBurgerMenu(burgerMenuOpen);
-}
 
-function checkMenuStatus(status) {
-	if (status === false) {
+function toggleBurgerMenu() {
+	if (menuVisibleIndicator === false) {
 		menuVisibleIndicator = true;
 		burgerMenuOpen.classList.remove('hidden');
 		burgerMenuOpen.classList.add('visible');
 	} else {
 		burgerMenuOpen.classList.add('hidden');
 		burgerMenuOpen.classList.remove('visible');
+	
 		menuVisibleIndicator = false;
 	}
 }
 
 
 
-function generateBurgerMenu(el) {
-	const linksContainer = document.createElement('div');
+function generateBurgerMenu() {
+
 	let links = ['Sport', 'Technology', 'Campus', 'About Us'];
 	let loggedInInd = sessionStorage.getItem('loggedIn');
 	if (loggedInInd === 'true') {
 	   links.push('Order Food');
 	}
-	el.childNodes.length > 0
-		? burgerMenuOpen.removeChild(linksContainer)
-		: 
+	
 	links.forEach((link) => {
 				const menuLink = document.createElement('a');
 				menuLink.classList.add('menu-link');
@@ -60,8 +56,13 @@ function generateBurgerMenu(el) {
 				}
 
 				menuLink.innerHTML = link;
-				linksContainer.appendChild(menuLink);
+				burgerMenuOpenInnerDiv.appendChild(menuLink);
 		  });
-	burgerMenuOpen.appendChild(linksContainer);
+	burgerMenuOpen.appendChild(burgerMenuOpenInnerDiv);
+	
 }
+
+generateBurgerMenu();
+
+export default menuIcon.addEventListener('click', toggleBurgerMenu);
 

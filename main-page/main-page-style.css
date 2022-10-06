@@ -66,6 +66,10 @@ section a {
           transform: translateX(0);
       }
   }
+  .link-default {
+    text-decoration: none;
+    color: black;
+  }
   header {
     position: fixed;
     background-color: white;
@@ -101,13 +105,18 @@ section a {
 #burger-menu-open {
     width: 50%;
     height: -webkit-fill-available;
-    border: 1px solid black;
     position: absolute;
     left: 0;
     top: 0;
     padding-top: 40px;
-    background-color: lightblue;
     z-index: 5;
+    background-color: lightblue;
+
+}
+
+#burger-menu-icons-div {
+    background-color: lightblue;
+
 }
 .menu-link {
     display: block;

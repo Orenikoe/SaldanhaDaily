@@ -1,7 +1,8 @@
 import {articlesData} from '../Data/articles-data.js'
+
 const articlesContainer = document.querySelector('section');
 document.getElementById('company-icon').addEventListener('click', printCards);
-// document.getElementById('burger-menu-icon').addEventListener('click', toggleBurgerMenu);
+
 
 const navLinks = document.getElementsByClassName('nav-link');
 let filteredArr = [];
@@ -14,10 +15,14 @@ navLinksArr.map(link => {
 
 
 export function printCards(event) {
+//    document.querySelector('span').style.display = 'none';
    
-   
-   
-	articlesContainer.innerHTML = '';
+  if (document.querySelector('section') !== null) {
+      articlesContainer.innerHTML = '';
+
+  } else {
+    location.href = '../main-page/main-page.html';
+  }
 	 filteredArr = articlesData.filter(article => {
 		return article.topic === event.target.innerHTML;
 	})
@@ -32,6 +37,7 @@ export function printCards(event) {
 
         filteredArr.map((article) => {
             const articleId = document.createElement('span');
+            articleId.style.display = 'none';
             const articleWrap = document.createElement('div');
             const articleLink = document.createElement('a');
             const articleTitle = document.createElement('h3');
@@ -58,9 +64,15 @@ export function printCards(event) {
             }
     
             articleTitle.classList.add('articleTitle');
+            articleLink.classList.add('link-default')
             articleImg.classList.add('articleImage');
-            articlesContainer.appendChild(articleLink);
+           
+            if (document.querySelector('section') !== null) {
+                articlesContainer.appendChild(articleLink);
+          
+            } 
         });
+        
     }
 
 

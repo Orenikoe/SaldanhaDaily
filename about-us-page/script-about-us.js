@@ -1,7 +1,6 @@
 import {teamData} from '../Data/about-us-data.js'
-import {toggleBurgerMenu} from '../common.js'
 const cardsWrapper = document.querySelector('main');
-document.getElementById('burger-menu-icon').addEventListener('click', toggleBurgerMenu);
+
 
 
 

@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
     <script src="login-script.js" defer></script>
-    <script src="../common.js" defer></script>
+    <script src="../common.js" defer type="module"></script>
     <script src="../printing-content.js" type="module" defer></script>
 
 
@@ -19,9 +19,11 @@
 </head>
 <body>
     <header>
-        <div id="burger-menu-icon" ></div>
-        <div id="burger-menu-open" class="hidden"></div>
-        <a href="../main-page/main-page.html" class="company"><img src="../about-us-page/assets/company-logo.png" class="company-icon"></a>
+        <div id="burger-menu-icon"></div>
+        <div id="burger-menu-open" class="hidden">
+            <div id ='burger-menu-icons-div'></div>
+        </div>
+        <a href="../main-page/main-page.html" class="company" id="company-icon"><img src="../about-us-page/assets/company-logo.png" class="company-icon"></a>
         <a href="../login-page/login.html" class="login"><img src="../about-us-page/assets/login-icon.png" class="login-icon"></a>
         <div id="pc-menu">      
 

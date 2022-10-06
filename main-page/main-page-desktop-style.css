@@ -40,6 +40,13 @@ html{
     margin: 20px 40px 50px 40px;
     grid-auto-rows: auto;
 }
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
 .articleImage{
     width: 65%;
     max-height: 160px;
@@ -121,9 +128,15 @@ header {
     align-self: center;
     font-family:sans-serif ;
 }
-#burger-menu-icon div {
+#burger-menu-icon {
 display: none;
 }
+
+
+#burger-menu-icon-div {
+    display: none;
+    }
+
 .link {
     display: flex;
     color: darkred;
