@@ -226,13 +226,9 @@ margin-right: 4px;
 }
 .footer{
 	background-color: #733415;
-<<<<<<< HEAD
-	color: white;
-	height: 30px;	
-=======
+
 	color: #7AFFF6;
 	height: 30px;
->>>>>>> parent of 769476b (update footer and header in all files; bckground color; main page articles view)
 	float: left ;
 	display: grid;
 	width: 95%;
