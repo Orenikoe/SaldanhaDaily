@@ -84,11 +84,12 @@ h1{
 	display: none;
 }
 h1{
-	margin-top: 10px;
+	margin-top: 130px;
 }
 .cards-wrapper {
 	padding: 20px;
 	display: flex;
+
 	flex-direction: column;
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -124,11 +125,12 @@ h1{
 
 .footer{
 	background-color: #733415;
-	color: #7AFFF6;
+	color: white;
 	height: 50px;
 	float: left ;
 	display: grid;
-	width: 97%;
+	width: 100%;
+	margin:-10px;
 	padding-left: 20px;
 	font-size: 13px;
 	font-family: helvetica;
@@ -223,6 +225,8 @@ h1{
 		margin-left:-10px;
 		font-size: 15px;
 		font-family: helvetica;
+		position:fixed;
+		bottom: 0;
 	}
 	
 }
