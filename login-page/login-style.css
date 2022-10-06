@@ -1,6 +1,3 @@
-html{
-    background-color: #f2f2f2;
-}
 * {
 	box-sizing: border-box;
 	margin-block-start: 0;
@@ -229,20 +226,23 @@ margin-right: 4px;
 }
 .footer{
 	background-color: #733415;
+<<<<<<< HEAD
 	color: white;
 	height: 30px;	
+=======
+	color: #7AFFF6;
+	height: 30px;
+>>>>>>> parent of 769476b (update footer and header in all files; bckground color; main page articles view)
 	float: left ;
 	display: grid;
-	width: 100%;
+	width: 95%;
 	padding-left: 20px;
-	margin-left:-10px;
 	font-size: 13px;
 	font-family: helvetica;
 	position: fixed;
 	bottom: 0%;
-/* 	margin: 15px 15px 0px 15px; */
+	margin: 15px 15px 0px 15px;
 }
-
 h4{
 	font-size: 100px;
 	display: flex;
