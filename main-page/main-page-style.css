@@ -73,7 +73,6 @@ header {
 	border-radius: 0px 0px 23% 23%;
 	border: 1px 3px 5px 5px solid black;
 	border-bottom: 1px solid;
-	font-family: sans-serif;
 }
 
 .company-icon {
@@ -135,7 +134,8 @@ header {
 	background-color: brown;
     position: absolute;
     /* bottom: 0; */
-    width: 100%;
+    width: 96%;
+    height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
