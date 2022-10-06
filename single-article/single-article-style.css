@@ -1,285 +1,251 @@
 * {
-    margin:0px;
- }
+  margin:0px;
+}
 body {
-    margin:10px;
-    margin-top: 70px;
-    border:10px;
-    font-family: Helvetica;
-  }
+  margin:10px;
+  margin-top: 70px;
+  border:10px;
+  font-family: Helvetica;
+}
+
 
 .articleTitle{
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    font-size:30px;
-    font-weight: bold;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-size:30px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
 .imageBorder{
+text-align: center;
+}
+.articleImage{
+  background-image: url("https://www.goodfreephotos.com/albums/business-and-technology/old-black-typewriter.jpg");
+  width: 350px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.articleImageSource{
+  padding-bottom:10px;
+  font-size:10px;
   text-align: center;
 }
-
-.articleImage{
-    background-image: url("https://www.goodfreephotos.com/albums/business-and-technology/old-black-typewriter.jpg");
-    padding:0;
-    width: 350px;
-    height: 350px;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-.articleImageSource{
-    padding-bottom:10px;
-    font-size:10px;
-    text-align: center;
-}
-
-  .parGraph{
-    font-size:13px;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom:10px;  
-    color:gray; 
-    margin: 0px 15px;
-  }
-
-  .rowButtons{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    padding-top:20px;
-  }
-  .shareFacebook{
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    background: white;
-    border: 1px solid #000;
-    margin:5px;
-  }
-
-  .shareFacebook:hover{
-    background-color:rgb(148, 198, 228);
-  }
-
-  .facebookImg{
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    background-image: url("./assets-articlePage/facebook-icon.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-
-  .shareTwitter{
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    background: white;
-    border: 1px solid #000;
-    margin:5px;
-  }
-
-  .shareTwitter:hover{
-    background-color:rgb(121, 176, 207);
-  }
-  
-  .twitterImg{
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    background-image: url("./assets-articlePage/twitter-icon.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-
-  .shareWhatsapp{
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    background: white;
-    border: 1px solid #000;
-    margin:5px;
-  }
-
-  .shareWhatsapp:hover{
-    background-color:rgb(142, 228, 130);
-  }
-  
-  
-  .whatsImg{
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    background-image: url("./assets-articlePage/whats-icon.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-
-  .shareEmail{
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    background: white;
-    border: 1px solid #000;
-    margin:5px;
-  }
-
-  .shareEmail:hover{
-    background-color:rgb(207, 121, 140);
-  }
-  
-  .emailImg{
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    background-image: url("./assets-articlePage/email-icon.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-
-  .shareLinkedin{
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    background: white;
-    border: 1px solid #000;
-    margin:5px;
-  }
-  
-  .shareLinkedin:hover{
-    background-color:rgb(121, 176, 207);
-  }
-
-  .linkedinImg{
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    background-image: url("./assets-articlePage/linkdin-icon.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-
-  
-  .date{
-    text-align: center;
-    font-size:10px;
-    color: gray;
-    margin:10px;
-}
-
-.article{
-  text-align: left;
-  margin:0;
-  padding-top: 10px;
-  padding-bottom:20px;
+.parGraph{
+  font-size:13px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom:10px;
+  color:gray;
   margin: 0px 15px;
 }
-
+.rowButtons{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding-top:20px;
+}
+.shareFacebook{
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 1px solid #000;
+  margin:5px;
+}
+.shareFacebook:hover{
+  background-color:rgb(148, 198, 228);
+}
+.facebookImg{
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-image: url("./assets-articlePage/facebook-icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.shareTwitter{
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 1px solid #000;
+  margin:5px;
+}
+.shareTwitter:hover{
+  background-color:rgb(121, 176, 207);
+}
+.twitterImg{
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-image: url("./assets-articlePage/twitter-icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.shareWhatsapp{
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 1px solid #000;
+  margin:5px;
+}
+.shareWhatsapp:hover{
+  background-color:rgb(142, 228, 130);
+}
+.whatsImg{
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-image: url("./assets-articlePage/whats-icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.shareEmail{
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 1px solid #000;
+  margin:5px;
+}
+.shareEmail:hover{
+  background-color:rgb(207, 121, 140);
+}
+.emailImg{
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-image: url("./assets-articlePage/email-icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.shareLinkedin{
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 1px solid #000;
+  margin:5px;
+}
+.shareLinkedin:hover{
+  background-color:rgb(121, 176, 207);
+}
+.linkedinImg{
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-image: url("./assets-articlePage/linkdin-icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.date{
+  text-align: center;
+  font-size:10px;
+  color: gray;
+  margin:10px;
+}
+.article{
+text-align: left;
+margin:0;
+padding-top: 10px;
+padding-bottom:20px;
+margin: 0px 15px;
+}
 .sidePosts{
-  display: none;
-
+display: none;
 }
-
-
 @keyframes slideInFromLeft {
-    0% {
-      transform: translateX(-100%);
-      }
-      100% {
-          transform: translateX(0);
-      }
-  }
-
-  header {
-  position: fixed;
-  background-color: white;
-  top: 0;
-  width: 96%; 
-  justify-content: space-between;
-	display: flex;
-	height: 75px;
-	padding-bottom: 26px;
-	border-radius: 0px 0px 23% 23%;
-	border: 1px 3px 5px 5px solid black;
-	border-bottom: 1px solid;
+  0% {
+    transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
-
+header {
+position: fixed;
+background-color: white;
+top: 0;
+width: 96%;
+justify-content: space-between;
+display: flex;
+height: 75px;
+padding-bottom: 26px;
+border-radius: 0px 0px 23% 23%;
+border: 1px 3px 5px 5px solid black;
+border-bottom: 1px solid;
+}
 .company-icon {
-	height: 80px;
-	margin: 10px;
+height: 80px;
+margin: 10px;
 }
 .login-icon {
-	height: 30px;
-	margin: 10px;
+height: 30px;
+margin: 10px;
 }
 #pc-menu{
-  display: none;
+display: none;
 }
 #burger-menu-icon {
-	width: 40px;
-	height: 40px;
-	background-image: url('../about-us-page/assets/burger-menu-icon.png');
-	z-index: 50;
-	position: relative;
-	background-size: contain;
-  margin: 10px;
+width: 40px;
+height: 40px;
+background-image: url('../about-us-page/assets/burger-menu-icon.png');
+z-index: 50;
+position: relative;
+background-size: contain;
+margin: 10px;
 }
-
-#pc-menu{
-  display: none;
-}
-
 #burger-menu-open {
-	width: 50%;
-	height: -webkit-fill-available;
-	border: 1px solid black;
-	position: absolute;
-	left: 0;
-	top: 0;
-	padding-top: 40px;
-	background-color: lightblue;
-	z-index: 5;
-    
+width: 50%;
+height: -webkit-fill-available;
+border: 1px solid black;
+position: absolute;
+left: 0;
+top: 0;
+padding-top: 40px;
+background-color: lightblue;
+z-index: 5;
 }
-
 .menu-link {
-	display: block;
-    color: darkred;
-    text-decoration: none;
-    font-size: xx-large;
-    padding: 30px;
+display: block;
+  color: darkred;
+  text-decoration: none;
+  font-size: xx-large;
+  padding: 30px;
 }
-
 .visible {
-    animation: 1s ease-out 0s 1 slideInFromLeft;
-	display: block;
-    
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+display: block;
 }
-
 .hidden {
-	display: none;
+display: none;
 }
 .imageBorder{
-  text-align-last: center;
+text-align-last: center;
 }
 .posts-body{
-  display: none;
+display: none;
 }
 .footer{
-  background-color: #733415;
-  color: #7AFFF6;
-  height: 40px;
-  float: left ;
-  display: grid;
-  width: 94%;
-  padding-left: 20px;
-  font-size: 13px;
-  font-family: helvetica;
+background-color: #733415;
+color: #7AFFF6;
+height: 40px;
+float: left ;
+display: grid;
+width: 94%;
+padding-left: 20px;
+font-size: 13px;
+font-family: helvetica;
 }
