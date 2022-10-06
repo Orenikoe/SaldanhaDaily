@@ -16,6 +16,10 @@ body {
     font-weight: bold;
 }
 
+.imageBorder{
+  text-align: center;
+}
+
 .articleImage{
     background-image: url("https://www.goodfreephotos.com/albums/business-and-technology/old-black-typewriter.jpg");
     padding:0;
@@ -28,6 +32,7 @@ body {
     text-align: left;
     padding-bottom:10px;
     font-size:10px;
+    text-align: center;
 }
 
   .parGraph{
@@ -175,7 +180,7 @@ body {
   padding-bottom:20px;
 }
 
-.relatedPosts{
+.posts-body{
   display: none;
 
 }
