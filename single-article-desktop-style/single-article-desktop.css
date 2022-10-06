@@ -1,3 +1,6 @@
+html{
+  background-color: #F2F2F2;
+}
 * {
     margin:0px;
  }
@@ -8,16 +11,11 @@ body {
     border:10px;
     font-family: Helvetica;
   }
-
   /* Main page format */
-
   .formatPage{
       margin-left: 300px;
       margin-right:300px;
-
   }
-
-  
   /*     .relatedPosts{
     display: flex;
     flex-direction: column;
@@ -26,16 +24,13 @@ body {
     padding-top: 20px;
     font-size: small;
   } */
-  
   /* Side bar */
-
   .sidePosts {
     position: fixed;
     right: 15px;
     padding-top: 20px;
     padding-bottom: 20px;
   }
-
   .posts-img{
   background-size: cover;
   background-position: center;
@@ -44,7 +39,6 @@ body {
   width: 100%;
   padding-bottom: 10px;
   }
-
   .posts-header{
     text-align: center;
     padding-top: 20px;
@@ -52,7 +46,6 @@ body {
     font-size:20px;
     font-weight: bold;
   }
-
   .posts-title{
     font-size:small;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -61,7 +54,6 @@ body {
   font-size:small;
   font-family: Helvetica;
 }
-
     /* Article */
 .articleTitle{
     text-align: center;
@@ -69,10 +61,8 @@ body {
     padding-bottom: 30px;
     font-size:50px;
     font-weight: bold;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
-
 .articleImage{
     background-image: url("https://www.goodfreephotos.com/albums/business-and-technology/old-black-typewriter.jpg");
     background-position: center;
@@ -84,34 +74,27 @@ body {
     display: inline-block;
     background-origin: initial;
   }
-
 .articleImageSource{
     text-align: center;
     padding-bottom:10px;
     font-size:10px;
 }
-
     /* Paragraph focused */
-
 .parGraph{
   font-size:20px;
   font-weight: bold;
   text-align: center;
-  padding-bottom:10px; 
+  padding-bottom:10px;
   padding-top:60px;
-  color: gray;   
+  color: gray;
 }
-
     /* Share Buttons */
-  
 .rowButtons{
   display:flex;
   justify-content:center;
   align-items:center;
   padding-top:20px;
 }
-
-    
   .shareFacebook{
     border-radius: 50%;
     width: 30px;
@@ -120,11 +103,9 @@ body {
     border: 1px solid #000;
     margin:5px;
   }
-
   .shareFacebook:hover{
     background-color:rgb(148, 198, 228);
   }
-
   .facebookImg{
     border-radius: 50%;
     width: 30px;
@@ -134,7 +115,6 @@ body {
     background-position: center;
     background-size: cover;
   }
-
   .shareTwitter{
     border-radius: 50%;
     width: 30px;
@@ -143,11 +123,9 @@ body {
     border: 1px solid #000;
     margin:5px;
   }
-
   .shareTwitter:hover{
     background-color:rgb(121, 176, 207);
   }
-  
   .twitterImg{
     border-radius: 50%;
     width: 30px;
@@ -157,7 +135,6 @@ body {
     background-position: center;
     background-size: cover;
   }
-
   .shareWhatsapp{
     border-radius: 50%;
     width: 30px;
@@ -166,12 +143,9 @@ body {
     border: 1px solid #000;
     margin:5px;
   }
-
   .shareWhatsapp:hover{
     background-color:rgb(142, 228, 130);
   }
-  
-  
   .whatsImg{
     border-radius: 50%;
     width: 30px;
@@ -181,7 +155,6 @@ body {
     background-position: center;
     background-size: cover;
   }
-
   .shareEmail{
     border-radius: 50%;
     width: 30px;
@@ -190,11 +163,9 @@ body {
     border: 1px solid #000;
     margin:5px;
   }
-
   .shareEmail:hover{
     background-color:rgb(207, 121, 140);
   }
-  
   .emailImg{
     border-radius: 50%;
     width: 30px;
@@ -204,7 +175,6 @@ body {
     background-position: center;
     background-size: cover;
   }
-
   .shareLinkedin{
     border-radius: 50%;
     width: 30px;
@@ -213,11 +183,9 @@ body {
     border: 1px solid #000;
     margin:5px;
   }
-  
   .shareLinkedin:hover{
     background-color:rgb(121, 176, 207);
   }
-
   .linkedinImg{
     border-radius: 50%;
     width: 30px;
@@ -227,19 +195,14 @@ body {
     background-position: center;
     background-size: cover;
   }
-  
-  
     /* data */
-
     .date{
         text-align: center;
         font-size:15px;
         color: gray;
         margin:10px;
     }
-
         /* article */
-
     .article{
       text-align: left;
       font-size: 20px;
@@ -247,11 +210,6 @@ body {
       padding-bottom:70px;
       padding-top: 70px;
     }
-
-
-  
-  
-  
   @keyframes slideInFromLeft {
     0% {
       transform: translateX(-100%);
@@ -260,7 +218,6 @@ body {
           transform: translateX(0);
       }
   }
-
   header {
     justify-content: space-between;
     display: grid;
@@ -276,6 +233,7 @@ body {
       top: 0;
       justify-items: center;
       width: 100%;
+      left:0;
   }
   .company{
       grid-row: 1;
@@ -315,39 +273,31 @@ body {
   #burger-menu-icon {
     width: 0cm;
     }
-
-
 #burger-menu-open {
-	width: 50%;
-	height: -webkit-fill-available;
-	border: 1px solid black;
-	position: absolute;
-	left: 0;
-	top: 0;
-	padding-top: 40px;
-	background-color: lightblue;
-	z-index: 5;
-    
+  width: 50%;
+  height: -webkit-fill-available;
+  border: 1px solid black;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 40px;
+  background-color: lightblue;
+  z-index: 5;
 }
-
 .menu-link {
-	display: block;
+  display: block;
     color: darkred;
     text-decoration: none;
     font-size: xx-large;
     padding: 30px;
 }
-
 .visible {
     animation: 1s ease-out 0s 1 slideInFromLeft;
-	display: block;
-    
+  display: block;
 }
-
 .hidden {
-	display: none;
+  display: none;
 }
-
 .company-icon:hover{
   width: 180px;
   height: 140px;
@@ -358,15 +308,15 @@ body {
   .company-icon{
       transition: width 3s, height 0.3s;
   }
-
-.footer{
-  background-color: #733415;
-  color: #7AFFF6;
-  height: 50px;
-  float: left ;
-  display: grid;
-  width: 98%;
-  padding-left: 20px;
-  font-size: 15px;
-  font-family: helvetica;
+  .footer{
+    background-color: #733415;
+    color: white;
+    height: 50px;
+    float: left ;
+    display: grid;
+    width: 100%;
+    padding-left: 20px;
+    margin-left:-10px;
+    font-size: 15px;
+    font-family: helvetica;
 }
