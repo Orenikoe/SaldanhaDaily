@@ -1,4 +1,4 @@
-import {sideArticlesData} from '../single-article-desktop-style/article-data'
+import {sideArticlesData} from '../single-article-desktop-style/article-data.js'
 
 const sidePosts = document.querySelector(".sidePosts");
 
