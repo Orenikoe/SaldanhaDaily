@@ -1,5 +1,5 @@
 import { foodData } from "../Data/order-food-data.js";
-
+document.getElementById('food-btn').addEventListener('click', orderFoodBtn)
 
 const cardsWrapper = document.querySelector('main');
 let idIndex = 1;

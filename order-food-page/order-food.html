@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style-order-food.css">
     <script src="./order-food.script.js" type="module" defer></script>
-    <script src="../common.js" defer></script>
-    <script src="../printing-content.js" type="module" defer></script>
+    <script src="../common.js" type="module" defer></script>
+        <!-- <script src="../printing-content.js" type="module" defer></script> -->
 
     <title>Order Food</title>
 </head>
 <body>
     <header>
-        <div id="burger-menu-icon" onclick="toggleBurgerMenu()"></div>
+        <div id="burger-menu-icon" ></div>
         <div id="burger-menu-open" class="hidden"></div>
-        <a href="../main-page/main-page.html" class="company"><img src="../about-us-page/assets/company-logo.png" class="company-icon"></a>
+        <a href="../main-page/main-page.html" class="company" id="company-icon"><img src="../about-us-page/assets/company-logo.png" class="company-icon"></a>
         <a href="../login-page/login.html" class="login"><img src="../about-us-page/assets/login-icon.png" class="login-icon"></a>
         <div id="pc-menu">      
             <a class="nav-link" href="javascript:void(0)">Sports</a>             
@@ -36,7 +36,7 @@
         <option value="audi">2.5 Dojo Room</option>
       </select>
       
-    <button onclick="orderFoodBtn()">Order Now</button>
+    <button id="food-btn" >Order Now</button>
     <footer class="footer">
         <div></div>
         <p>Wild News Footer</p>

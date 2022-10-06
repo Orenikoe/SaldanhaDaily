@@ -1,18 +1,20 @@
+import {printCards} from './printing-content.js'
+document.getElementById('burger-menu-icon').addEventListener('click', toggleBurgerMenu);
 const menuIcon = document.getElementById('#burger-menu-icon');
-const burgerMenuOpen = document.getElementById('.burger-menu-open');
+const burgerMenuOpen = document.getElementById('burger-menu-open');
 let menuVisibleIndicator = false;
 
 
-function toggleBurgerMenu() {
+export function toggleBurgerMenu() {
 	checkMenuStatus(menuVisibleIndicator);
 	generateBurgerMenu(burgerMenuOpen);
 }
 
 function checkMenuStatus(status) {
 	if (status === false) {
+		menuVisibleIndicator = true;
 		burgerMenuOpen.classList.remove('hidden');
 		burgerMenuOpen.classList.add('visible');
-		menuVisibleIndicator = true;
 	} else {
 		burgerMenuOpen.classList.add('hidden');
 		burgerMenuOpen.classList.remove('visible');
@@ -29,23 +31,28 @@ function generateBurgerMenu(el) {
 	if (loggedInInd === 'true') {
 	   links.push('Order Food');
 	}
-	el.childNodes.length === 1
+	el.childNodes.length > 0
 		? burgerMenuOpen.removeChild(linksContainer)
-		: links.forEach((link) => {
+		: 
+	links.forEach((link) => {
 				const menuLink = document.createElement('a');
 				menuLink.classList.add('menu-link');
 				switch (link) {
-					case 'Sport':
-						menuLink.href = "../main-page/main-page.html";
-						break;
 					case 'Technology':
-						menuLink.href = "../main-page/main-page.html";
+						menuLink.addEventListener('click', printCards );
 						break;
-					case 'Financial':
-						menuLink.href = '../main-page/main-page.html';
+						case 'Sport':
+							menuLink.addEventListener('click', printCards );
+							break;
+					case 'Campus':
+						// menuLink.href = "../main-page/main-page.html";
+						menuLink.addEventListener('click', printCards );
+
 						break;
+				
 					case 'About Us':
 						menuLink.href = "../about-us-page/about-us.html";
+
 						break;
 						case 'Order Food':
 						menuLink.href = '../order-food-page/order-food.html';

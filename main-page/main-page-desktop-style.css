@@ -121,8 +121,8 @@ header {
     align-self: center;
     font-family:sans-serif ;
 }
-#burger-menu-icon {
-width: 0cm;
+#burger-menu-icon div {
+display: none;
 }
 .link {
     display: flex;

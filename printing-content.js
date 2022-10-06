@@ -1,5 +1,7 @@
 import {articlesData} from '../Data/articles-data.js'
 const articlesContainer = document.querySelector('section');
+document.getElementById('company-icon').addEventListener('click', printCards);
+// document.getElementById('burger-menu-icon').addEventListener('click', toggleBurgerMenu);
 
 const navLinks = document.getElementsByClassName('nav-link');
 let filteredArr = [];
@@ -11,18 +13,21 @@ navLinksArr.map(link => {
 
 
 
-function printCards(event) {
-    if (window.location.pathname === '/single-article/single-article.html') {
-        window.location.pathname = './main-page/main-page.html'
-    }
+export function printCards(event) {
+   
+   
    
 	articlesContainer.innerHTML = '';
 	 filteredArr = articlesData.filter(article => {
 		return article.topic === event.target.innerHTML;
 	})
+
 	if (event.target.innerHTML === 'About Us') {
 		location.href = '../about-us-page/about-us.html';
-	}
+	} else if (event.currentTarget.id ==='company-icon') {
+        event.preventDefault();
+        filteredArr = articlesData;
+    }
    
 
         filteredArr.map((article) => {
