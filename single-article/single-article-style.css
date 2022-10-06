@@ -21,6 +21,12 @@ body {
 .imageBorder{
 text-align: center;
 }
+
+.imageBorder {
+  text-align: center;
+}
+
+
 .articleImage{
   background-image: url("https://www.goodfreephotos.com/albums/business-and-technology/old-black-typewriter.jpg");
   width: 350px;
@@ -36,6 +42,145 @@ text-align: center;
   font-size:10px;
   text-align: center;
 }
+
+
+  .parGraph{
+    font-size:13px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom:10px;  
+    color:gray;  
+  }
+
+  .rowButtons{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top:20px;
+  }
+  .shareFacebook{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border: 1px solid #000;
+    margin:5px;
+  }
+
+  .shareFacebook:hover{
+    background-color:rgb(148, 198, 228);
+  }
+
+  .facebookImg{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-image: url("../single-article/assets-articlePage/facebook-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .shareTwitter{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border: 1px solid #000;
+    margin:5px;
+  }
+
+  .shareTwitter:hover{
+    background-color:rgb(121, 176, 207);
+  }
+  
+  .twitterImg{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-image: url("./assets-articlePage/twitter-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .shareWhatsapp{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border: 1px solid #000;
+    margin:5px;
+  }
+
+  .shareWhatsapp:hover{
+    background-color:rgb(142, 228, 130);
+  }
+  
+  
+  .whatsImg{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-image: url("./assets-articlePage/whats-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .shareEmail{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border: 1px solid #000;
+    margin:5px;
+  }
+
+  .shareEmail:hover{
+    background-color:rgb(207, 121, 140);
+  }
+  
+  .emailImg{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-image: url("./assets-articlePage/email-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .shareLinkedin{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border: 1px solid #000;
+    margin:5px;
+  }
+  
+  .shareLinkedin:hover{
+    background-color:rgb(121, 176, 207);
+  }
+
+  .linkedinImg{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-image: url("./assets-articlePage/linkdin-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  
+  .date{
+    text-align: center;
+    font-size:10px;
+    color: gray;
+    margin:10px;
+  }
 .parGraph{
   font-size:13px;
   font-weight: bold;
@@ -155,6 +300,7 @@ text-align: center;
   font-size:10px;
   color: gray;
   margin:10px;
+
 }
 .article{
 text-align: left;

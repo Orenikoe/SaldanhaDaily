@@ -205,6 +205,7 @@ margin-right: 4px;
     display: none;
 }
 .footer{
+<<<<<<< HEAD
     background-color: #733415;
     color: white;
     height: 30px;
@@ -218,6 +219,21 @@ margin-right: 4px;
     position: fixed;
     bottom: 0%;
 /*  margin: 15px 15px 0px 15px; */
+=======
+	background-color: #733415;
+
+	color: #7AFFF6;
+	height: 30px;
+	float: left ;
+	display: grid;
+	width: 95%;
+	padding-left: 20px;
+	font-size: 13px;
+	font-family: helvetica;
+	position: fixed;
+	bottom: 0%;
+	margin: 15px 15px 0px 15px;
+>>>>>>> ed8f0512afd73f392707021d9838fa41e8c951d7
 }
 h4{
     font-size: 100px;
