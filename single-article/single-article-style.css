@@ -3,9 +3,9 @@
  }
 body {
     margin:10px;
-    background-color: #EBE5E5;
-    margin:10px;
+    margin-top: 70px;
     border:10px;
+    font-family: Helvetica;
   }
 
 .articleTitle{
@@ -14,6 +14,7 @@ body {
     padding-bottom: 30px;
     font-size:30px;
     font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .imageBorder{
@@ -39,7 +40,8 @@ body {
     font-weight: bold;
     text-align: center;
     padding-bottom:10px;  
-    color:gray;  
+    color:gray; 
+    margin: 0px 15px;
   }
 
   .rowButtons{
@@ -177,6 +179,7 @@ body {
   margin:0;
   padding-top: 10px;
   padding-bottom:20px;
+  margin: 0px 15px;
 }
 
 .sidePosts{
@@ -194,25 +197,31 @@ body {
       }
   }
 
-header {
-	justify-content: space-between;
+  header {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  width: 96%; 
+  justify-content: space-between;
 	display: flex;
-	height: 100px;
+	height: 75px;
 	padding-bottom: 26px;
-	border-radius: 32%;
+	border-radius: 0px 0px 23% 23%;
 	border: 1px 3px 5px 5px solid black;
 	border-bottom: 1px solid;
 }
 
 .company-icon {
-	height: 60px;
+	height: 80px;
 	margin: 10px;
 }
 .login-icon {
 	height: 30px;
 	margin: 10px;
 }
-
+#pc-menu{
+  display: none;
+}
 #burger-menu-icon {
 	width: 40px;
 	height: 40px;
@@ -220,6 +229,7 @@ header {
 	z-index: 50;
 	position: relative;
 	background-size: contain;
+  margin: 10px;
 }
 
 #burger-menu-open {
@@ -252,20 +262,20 @@ header {
 .hidden {
 	display: none;
 }
-
-.footer div {
-	width: 50px;
-	height: 50px;
-	background-color: black;
+.imageBorder{
+  text-align-last: center;
 }
-
-.footer {
-	background-color: brown;
-    position: absolute;
-    /* bottom: 0; */
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.posts-body{
+  display: none;
 }
-
+.footer{
+  background-color: #733415;
+  color: #7AFFF6;
+  height: 40px;
+  float: left ;
+  display: grid;
+  width: 94%;
+  padding-left: 20px;
+  font-size: 13px;
+  font-family: helvetica;
+}
