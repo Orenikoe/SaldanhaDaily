@@ -36,7 +36,7 @@ export const articlesData = [{
     id: 5,
     title: "Electricity price is rising!",
     img: "../main-page/assets/Eletricidade.jpg",
-    topic: "Campus",
+    topic: "Technology",
     desc: "Energy is getting expensive, the campus is asking you to don't waste energy!",
     body: " Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque."
 },
@@ -60,7 +60,7 @@ export const articlesData = [{
     id: 8,
     title: "Day off to work out",
     img: "../main-page/assets/FitnessHut.jpg",
-    topic: "Campus",
+    topic: "Sports",
     desc: "In collaboration with Fitness Hut in Arco do Cego, the whole class will be provided with a free day in the gym next week.",
     body: " Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque."
 },
