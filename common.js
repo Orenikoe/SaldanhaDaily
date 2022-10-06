@@ -1,5 +1,5 @@
-const menuIcon = document.getElementById('burger-menu-icon');
-const burgerMenuOpen = document.getElementById('burger-menu-open');
+const menuIcon = document.getElementById('#burger-menu-icon');
+const burgerMenuOpen = document.getElementById('.burger-menu-open');
 let menuVisibleIndicator = false;
 
 
