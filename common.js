@@ -24,7 +24,7 @@ function checkMenuStatus(status) {
 
 function generateBurgerMenu(el) {
 	const linksContainer = document.createElement('div');
-	let links = ['Sport', 'Technology', 'Financial', 'About Us'];
+	let links = ['Sport', 'Technology', 'Campus', 'About Us'];
 	let loggedInInd = sessionStorage.getItem('loggedIn');
 	if (loggedInInd === 'true') {
 	   links.push('Order Food');

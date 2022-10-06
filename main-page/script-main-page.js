@@ -1,61 +1,41 @@
-const menuIcon = document.getElementById('burger-menu-icon');
-const burgerMenuOpen = document.getElementById('burger-menu-open');
-let menuVisibleIndicator = false;
+				
+import {articlesData} from '../Data/articles-data.js'
+const articlesContainer = document.querySelector('section');
 
-if(window.innerWidth < 900){
-	function toggleBurgerMenu() {
-		checkMenuStatus(menuVisibleIndicator);
-		generateBurgerMenu(burgerMenuOpen);
-	}
-	function checkMenuStatus(status) {
-		if (status === false) {
-			burgerMenuOpen.classList.remove('hidden');
-			burgerMenuOpen.classList.add('visible');
-			menuVisibleIndicator = true;
+
+function printCards() {
+	articlesData.map((article) => {
+		const articleWrap = document.createElement('div');
+		const articleLink = document.createElement('a');
+		const articleTitle = document.createElement('h3');
+		const articleImg = document.createElement('img');
+		const articleDesc = document.createElement('p');
+		articleLink.appendChild(articleWrap);
+		articleWrap.appendChild(articleTitle);
+		articleWrap.appendChild(articleImg);
+		articleWrap.appendChild(articleDesc);
+		articleLink.setAttribute('href', '../single-article/single-article.html');
+		articleImg.setAttribute('src', article.img );
+		articleImg.setAttribute('alt', "article photo" );
+		articleWrap.setAttribute('id', 'Articles' );
+		articleTitle.innerHTML = article.title;
+		articleDesc.innerHTML = article.desc;
+        if (article.id % 2 == 0) {
+			articleWrap.classList.add('rightArticle');
 		} else {
-			burgerMenuOpen.classList.add('hidden');
-			burgerMenuOpen.classList.remove('visible');
-			menuVisibleIndicator = false;
+			articleWrap.classList.add('leftArticle');
+			
 		}
-	}
-	
-	function generateBurgerMenu(el) {
-		const linksContainer = document.createElement('div');
-		let links = ['Sport', 'Technology', 'Financial', 'About Us'];
-		let loggedInInd = sessionStorage.getItem('loggedIn');
-		if (loggedInInd === 'true') {
-			links.push('Order Food');
-		}
-		el.childNodes.length === 1
-		? burgerMenuOpen.removeChild(linksContainer)
-		: links.forEach((link) => {
-			const menuLink = document.createElement('a');
-					menuLink.classList.add('menu-link');
-					switch (link) {
-						case 'Sport':
-							menuLink.href = './main-page.html';
-							break;
-							case 'Technology':
-								menuLink.href = './main-page.html';
-								break;
-								case 'Financial':
-									menuLink.href = './main-page.html';
-									break;
-									case 'About Us':
-										menuLink.href = '../about-us-page/about-us.html';
-										break;
-										case 'Order Food':
-											menuLink.href = '../order-food-page/order-food.html';
-							break;
-						}
-						
-						menuLink.innerHTML = link;
-						linksContainer.appendChild(menuLink);
-					});
-					burgerMenuOpen.appendChild(linksContainer);
-				}
-				
+
+		articleTitle.classList.add('articleTitle');
+		articleImg.classList.add('articleImage');
+		articlesContainer.appendChild(articleLink);
+	});
 }
-else{
-}	
-				
+
+
+
+printCards();
+
+
+
