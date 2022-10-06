@@ -222,6 +222,10 @@ header {
 	background-size: contain;
 }
 
+#pc-menu{
+  display: none;
+}
+
 #burger-menu-open {
 	width: 50%;
 	height: -webkit-fill-available;
