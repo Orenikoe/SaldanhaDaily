@@ -31,7 +31,7 @@ export const articlesData = [{
     topic: "Technology",
     desc: " Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque.",
     body: " Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque."
-}
+},
 {
     id: 5,
     title: "Electricity price is rising!",
@@ -39,7 +39,7 @@ export const articlesData = [{
     topic: "Campus",
     desc: "Energy is getting expensive, the campus is asking you to don't waste energy!",
     body: " Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque."
-} 
+},
 {
     id: 6,
     title: "Temperature is getting colder",
@@ -47,15 +47,15 @@ export const articlesData = [{
     topic: "Campus",
     desc: "Bring your jackets along because Gonçalo will probably start playing with the air conditioner!",
     body: " Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque."
-}
+},
 {
     id: 7,
     title: "Bad smell in campus",
-    img: "../main-page/assets/Smell.jpg,
+    img: "../main-page/assets/Smell.jpg",
     topic: "Campus",
     desc: "We strongly advise you to wear masks around the toilets area. There was an incident that caused a disturbing smell!",
     body: " Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque."
-}
+},
 {
     id: 8,
     title: "Day off to work out",
@@ -63,7 +63,7 @@ export const articlesData = [{
     topic: "Campus",
     desc: "In collaboration with Fitness Hut in Arco do Cego, the whole class will be provided with a free day in the gym next week.",
     body: " Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque."
-}
+},
 {
     id: 9,
     title: "Classes outside",
@@ -71,15 +71,15 @@ export const articlesData = [{
     topic: "Campus",
     desc: "In order to clear our students minds, the next monday's class will be lectured in Arco do Cego's yard!",
     body: " Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque."
-}
+},
 {
     id: 10,
     title: "Covid outbreak",
-    img: "../main-page/assets/covid19.jpg,
+    img: "../main-page/assets/covid19.jpg",
     topic: "Campus",
     desc: "There was a covid outbreak in the data analytics class. The campus health department advises you to use mask.",
     body: " Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque."
-}
+},
 {
     id: 11,
     title: "New kebab place!",
@@ -87,7 +87,7 @@ export const articlesData = [{
     topic: "Campus",
     desc: "There was not enough kebab restaurants for the citizens of Saldanha.",
     body: " Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque. Lorem ipsum dui conubia pretium, sodales neque in mollis, augue curabitur quisque."
-}
+},
 {
     id: 12,
     title: "The university students are getting fatter!",
